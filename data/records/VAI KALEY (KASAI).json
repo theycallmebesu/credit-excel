@@ -1,0 +1,154 @@
+{
+  "customerName": "VAI KALEY (KASAI)",
+  "createdAt": "2026-10-26T03:20:25.978Z",
+  "updatedAt": "2026-11-01T10:30:28.250Z",
+  "entries": [
+    {
+      "id": "rec_1792984825978_mag3x",
+      "date": "2083-07-09",
+      "itemName": "MARBLE CUTTING BALDE FOR WALL",
+      "unit": "PIC",
+      "quantity": "4",
+      "driverName": "WALK IN",
+      "vehicleNumber": "",
+      "remarks": "",
+      "createdAt": "2026-10-26T03:20:25.978Z",
+      "updatedAt": "2026-11-01T10:30:14.771Z"
+    },
+    {
+      "id": "rec_1792984825978_57993",
+      "date": "2083-07-09",
+      "itemName": "ROLL KHAKSI 100 NUMBER",
+      "unit": "MTR",
+      "quantity": "7",
+      "driverName": "WALK IN",
+      "vehicleNumber": "",
+      "remarks": "",
+      "createdAt": "2026-10-26T03:20:25.978Z",
+      "updatedAt": "2026-11-01T10:30:19.501Z"
+    },
+    {
+      "id": "rec_1792984825978_f14ix",
+      "date": "2083-07-09",
+      "itemName": "PANJA",
+      "unit": "PIC",
+      "quantity": "3",
+      "driverName": "WALK IN",
+      "vehicleNumber": "",
+      "remarks": "",
+      "createdAt": "2026-10-26T03:20:25.978Z",
+      "updatedAt": "2026-11-01T10:30:28.250Z"
+    },
+    {
+      "id": "rec_1793244797014_8jf1u",
+      "date": "2083-07-12",
+      "itemName": "PPC CEMENT",
+      "unit": "BAG",
+      "quantity": "20",
+      "driverName": "SHIVEY",
+      "vehicleNumber": "5225",
+      "remarks": "",
+      "createdAt": "2026-10-29T03:33:17.014Z",
+      "updatedAt": "2026-10-29T04:40:29.770Z"
+    },
+    {
+      "id": "rec_1793270574548_b3d74",
+      "date": "2083-07-12",
+      "itemName": "CHIPS HALF TIP",
+      "unit": "HALF..TIP",
+      "quantity": "0.5",
+      "driverName": "SHIVEY",
+      "vehicleNumber": "5225",
+      "remarks": "",
+      "createdAt": "2026-10-29T10:42:54.548Z"
+    },
+    {
+      "id": "rec_1793334613744_vh152",
+      "date": "2083-07-13",
+      "itemName": "PLASTER PATTA WITH HANDLE",
+      "unit": "PIC",
+      "quantity": "2",
+      "driverName": "ANTY",
+      "vehicleNumber": "WALK IN",
+      "remarks": "",
+      "createdAt": "2026-10-30T04:30:13.744Z"
+    },
+    {
+      "id": "rec_1793498044925_kfuao",
+      "date": "2083-07-15",
+      "itemName": "WATER PROOF 5LTR",
+      "unit": "LTR",
+      "quantity": "5",
+      "driverName": "KAM GARNI",
+      "vehicleNumber": "WALK IN",
+      "remarks": "",
+      "createdAt": "2026-11-01T01:54:04.925Z"
+    },
+    {
+      "id": "rec_1793498044926_uxxz3",
+      "date": "2083-07-15",
+      "itemName": "PAINT BRUSH 2 INCH",
+      "unit": "PIC",
+      "quantity": "1",
+      "driverName": "KAM GARNI",
+      "vehicleNumber": "WALK IN",
+      "remarks": "",
+      "createdAt": "2026-11-01T01:54:04.925Z"
+    },
+    {
+      "id": "rec_1793505214491_x1sja",
+      "date": "2083-07-15",
+      "itemName": "WATER PROOF 5LTR",
+      "unit": "LTR",
+      "quantity": "5",
+      "driverName": "KAM GARNI",
+      "vehicleNumber": "WALK IN",
+      "remarks": "",
+      "createdAt": "2026-11-01T03:53:34.491Z"
+    },
+    {
+      "id": "rec_1793505214491_9zgxj",
+      "date": "2083-07-15",
+      "itemName": "ROLLER 3 INCH",
+      "unit": "PIC",
+      "quantity": "1",
+      "driverName": "KAM GARNI",
+      "vehicleNumber": "WALK IN",
+      "remarks": "",
+      "createdAt": "2026-11-01T03:53:34.491Z"
+    },
+    {
+      "id": "rec_1793507070042_byute",
+      "date": "2083-07-15",
+      "itemName": "RIDDI SIDDI CEMENT PPC",
+      "unit": "BAG",
+      "quantity": "20",
+      "driverName": "PURNEY",
+      "vehicleNumber": "DI",
+      "remarks": "",
+      "createdAt": "2026-11-01T04:24:30.042Z"
+    },
+    {
+      "id": "rec_1793507070042_b28rb",
+      "date": "2083-07-15",
+      "itemName": "SHIVAM CEMENT 43 GRADE",
+      "unit": "BAG",
+      "quantity": "1",
+      "driverName": "PURNEY",
+      "vehicleNumber": "DI",
+      "remarks": "",
+      "createdAt": "2026-11-01T04:24:30.042Z"
+    },
+    {
+      "id": "rec_1793528876471_lceu3",
+      "date": "2083-07-15",
+      "itemName": "BLACK PUTTING  (0.5 KG)",
+      "unit": "PKT",
+      "quantity": "2",
+      "driverName": "KASAI",
+      "vehicleNumber": "BIKE",
+      "remarks": "",
+      "createdAt": "2026-11-01T10:27:56.471Z"
+    }
+  ]
+}

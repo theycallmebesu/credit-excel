@@ -1,0 +1,51 @@
+{
+  "customerName": "GANESH DADA GHUMBA (DD)",
+  "createdAt": "2026-10-27T06:34:00.877Z",
+  "updatedAt": "2026-10-29T02:22:42.001Z",
+  "entries": [
+    {
+      "id": "rec_1793082840877_6uuek",
+      "date": "2083-07-10",
+      "itemName": "BAS PER PIC",
+      "unit": "pic",
+      "quantity": "50",
+      "driverName": "RAJENDRA",
+      "vehicleNumber": "8012",
+      "remarks": "",
+      "createdAt": "2026-10-27T06:34:00.877Z"
+    },
+    {
+      "id": "rec_1793082840877_bbr2p",
+      "date": "2083-07-10",
+      "itemName": "DORI",
+      "unit": "pic",
+      "quantity": "200",
+      "driverName": "RAJENDRA",
+      "vehicleNumber": "8012",
+      "remarks": "",
+      "createdAt": "2026-10-27T06:34:00.877Z"
+    },
+    {
+      "id": "rec_1793240243433_7fktp",
+      "date": "2083-07-12",
+      "itemName": "CHIPS",
+      "unit": "TIP",
+      "quantity": "1",
+      "driverName": "SHIVEY",
+      "vehicleNumber": "9155",
+      "remarks": "",
+      "createdAt": "2026-10-29T02:17:23.433Z"
+    },
+    {
+      "id": "rec_1793240562001_33sky",
+      "date": "2083-07-12",
+      "itemName": "BALWA (KHASRO)",
+      "unit": "TIP",
+      "quantity": "1",
+      "driverName": "RAJENDRA",
+      "vehicleNumber": "5225",
+      "remarks": "",
+      "createdAt": "2026-10-29T02:22:42.001Z"
+    }
+  ]
+}

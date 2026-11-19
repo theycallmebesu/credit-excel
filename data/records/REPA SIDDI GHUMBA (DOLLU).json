@@ -1,0 +1,30 @@
+{
+  "customerName": "REPA SIDDI GHUMBA (DOLLU)",
+  "createdAt": "2026-10-24T02:46:10.618Z",
+  "updatedAt": "2026-10-28T06:10:08.201Z",
+  "entries": [
+    {
+      "id": "rec_1792809970618_3fuda",
+      "date": "2083-07-07",
+      "itemName": "PPC CEMENT",
+      "quantity": "25",
+      "driverName": "SAJAN TAMANG",
+      "vehicleNumber": "DI",
+      "remarks": "",
+      "createdAt": "2026-10-24T02:46:10.618Z",
+      "unit": "bag",
+      "updatedAt": "2026-10-24T04:23:28.622Z"
+    },
+    {
+      "id": "rec_1793167808201_75a5r",
+      "date": "2083-07-11",
+      "itemName": "GHERU RATO PER PKT",
+      "unit": "PKT",
+      "quantity": "1",
+      "driverName": "SELF (LAMA)",
+      "vehicleNumber": "BIKE",
+      "remarks": "",
+      "createdAt": "2026-10-28T06:10:08.201Z"
+    }
+  ]
+}

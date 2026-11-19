@@ -1,0 +1,53 @@
+{
+  "customerName": "REJENDRA (HUMANE)",
+  "createdAt": "2026-10-25T05:45:52.260Z",
+  "updatedAt": "2026-10-26T01:56:35.417Z",
+  "entries": [
+    {
+      "id": "rec_1792907152260_pqvw2",
+      "date": "2083-07-08",
+      "itemName": "BALWA (KHASRO)",
+      "unit": "tip",
+      "quantity": "3",
+      "driverName": "FUCHEY AND SUPARI",
+      "vehicleNumber": "",
+      "remarks": "",
+      "createdAt": "2026-10-25T05:45:52.260Z",
+      "updatedAt": "2026-10-25T07:54:24.245Z"
+    },
+    {
+      "id": "rec_1792907152260_1raw7",
+      "date": "2083-07-08",
+      "itemName": "RODA (20 AND 30 MIX)",
+      "unit": "tip",
+      "quantity": "3",
+      "driverName": "FUCHEY AND SUPARI",
+      "vehicleNumber": "",
+      "remarks": "",
+      "createdAt": "2026-10-25T05:45:52.260Z"
+    },
+    {
+      "id": "rec_1792907152260_hzfyx",
+      "date": "2083-07-08",
+      "itemName": "WHOLE PASS 14 INCH",
+      "unit": "pic",
+      "quantity": "7",
+      "driverName": "FUCHEY AND SUPARI",
+      "vehicleNumber": "",
+      "remarks": "",
+      "createdAt": "2026-10-25T05:45:52.260Z",
+      "updatedAt": "2026-10-25T06:08:10.672Z"
+    },
+    {
+      "id": "rec_1792979795417_16fsr",
+      "date": "2083-07-09",
+      "itemName": "BALWA (KHASRO)",
+      "unit": "tip",
+      "quantity": "1",
+      "driverName": "FUCHE",
+      "vehicleNumber": "5225",
+      "remarks": "HIJO BAKI VAKO AJA",
+      "createdAt": "2026-10-26T01:56:35.417Z"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "customerName": "AMRISH (ROYAL FINANCE)",
+  "createdAt": "2026-10-27T06:20:15.385Z",
+  "updatedAt": "2026-11-01T10:04:28.270Z",
+  "entries": [
+    {
+      "id": "rec_1793082015385_1se50",
+      "date": "2083-07-10",
+      "itemName": "HIMAL TMT ROD 16 MM (2 MUTHA I.E 96.3 AND 96.3)",
+      "unit": "kg",
+      "quantity": "192.6",
+      "driverName": "SUPARI",
+      "vehicleNumber": "",
+      "remarks": "HIMAL STEEL",
+      "createdAt": "2026-10-27T06:20:15.385Z"
+    },
+    {
+      "id": "rec_1793082015385_1nnz1",
+      "date": "2083-07-10",
+      "itemName": "HIMAL TMT ROD 8 MM ( 1 MUTHA I. E 95KG)",
+      "unit": "kg",
+      "quantity": "95",
+      "driverName": "SUPARI",
+      "vehicleNumber": "",
+      "remarks": "HIMAL STEEL",
+      "createdAt": "2026-10-27T06:20:15.385Z"
+    },
+    {
+      "id": "rec_1793082015385_x57wj",
+      "date": "2083-07-10",
+      "itemName": "NARAYANI TMT ROD 12 MM ( 2 MUTHA I.E 106.1KG AND 106.6KG)",
+      "unit": "kg",
+      "quantity": "212.7",
+      "driverName": "SUPARI",
+      "vehicleNumber": "",
+      "remarks": "NARAYANI STEEL",
+      "createdAt": "2026-10-27T06:20:15.385Z"
+    },
+    {
+      "id": "rec_1793082015385_6cmgj",
+      "date": "2083-07-10",
+      "itemName": "NARAYANI TMT ROD 16 MM ( 1 MUTHA I.E 95.1)",
+      "unit": "kg",
+      "quantity": "95.1",
+      "driverName": "SUPARI",
+      "vehicleNumber": "",
+      "remarks": "NARAYANI STEEL",
+      "createdAt": "2026-10-27T06:20:15.385Z"
+    },
+    {
+      "id": "rec_1793082118680_4p1mo",
+      "date": "2083-07-10",
+      "itemName": "TAR",
+      "unit": "kg",
+      "quantity": "24.6",
+      "driverName": "SUPARI",
+      "vehicleNumber": "",
+      "remarks": "BENDING WIRE",
+      "createdAt": "2026-10-27T06:21:58.680Z"
+    },
+    {
+      "id": "rec_1793527468270_awssn",
+      "date": "2083-07-15",
+      "itemName": "ITTA 1 NUMBER PER PIC",
+      "unit": "TIP",
+      "quantity": "1",
+      "driverName": "RAJENDRA",
+      "vehicleNumber": "8012",
+      "remarks": "",
+      "createdAt": "2026-11-01T10:04:28.270Z"
+    }
+  ]
+}

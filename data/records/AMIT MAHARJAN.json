@@ -1,0 +1,62 @@
+{
+  "customerName": "AMIT MAHARJAN",
+  "createdAt": "2026-10-27T06:31:55.491Z",
+  "updatedAt": "2026-10-27T06:31:55.491Z",
+  "entries": [
+    {
+      "id": "rec_1793082715491_5jtg8",
+      "date": "2083-07-10",
+      "itemName": "PANI KUCHO",
+      "unit": "pic",
+      "quantity": "10",
+      "driverName": "",
+      "vehicleNumber": "",
+      "remarks": "",
+      "createdAt": "2026-10-27T06:31:55.491Z"
+    },
+    {
+      "id": "rec_1793082715491_mia9a",
+      "date": "2083-07-10",
+      "itemName": "BALWA (KHASRO)",
+      "unit": "tip",
+      "quantity": "1",
+      "driverName": "",
+      "vehicleNumber": "",
+      "remarks": "",
+      "createdAt": "2026-10-27T06:31:55.491Z"
+    },
+    {
+      "id": "rec_1793082715491_uj5gq",
+      "date": "2083-07-10",
+      "itemName": "DORI",
+      "unit": "pic",
+      "quantity": "100",
+      "driverName": "",
+      "vehicleNumber": "",
+      "remarks": "",
+      "createdAt": "2026-10-27T06:31:55.491Z"
+    },
+    {
+      "id": "rec_1793082715491_ke1xy",
+      "date": "2083-07-10",
+      "itemName": "BAS",
+      "unit": "pic",
+      "quantity": "10",
+      "driverName": "",
+      "vehicleNumber": "",
+      "remarks": "",
+      "createdAt": "2026-10-27T06:31:55.491Z"
+    },
+    {
+      "id": "rec_1793082715491_eevoa",
+      "date": "2083-07-10",
+      "itemName": "RIDDI SIDDI CEMENT OPC",
+      "unit": "bag",
+      "quantity": "10",
+      "driverName": "",
+      "vehicleNumber": "",
+      "remarks": "",
+      "createdAt": "2026-10-27T06:31:55.491Z"
+    }
+  ]
+}

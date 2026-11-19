@@ -1,0 +1,41 @@
+{
+  "customerName": "GHAR PACHADI AANI",
+  "createdAt": "2026-10-26T05:25:45.858Z",
+  "updatedAt": "2026-10-27T08:13:07.031Z",
+  "entries": [
+    {
+      "id": "rec_1792992345858_di6d1",
+      "date": "2083-07-09",
+      "itemName": "RIDDI SIDDI CEMENT PPC",
+      "unit": "bag",
+      "quantity": "1",
+      "driverName": "",
+      "vehicleNumber": "",
+      "remarks": "",
+      "createdAt": "2026-10-26T05:25:45.858Z"
+    },
+    {
+      "id": "rec_1792992345858_tmlfl",
+      "date": "2083-07-09",
+      "itemName": "BALWA PER BORA",
+      "unit": "bag",
+      "quantity": "1",
+      "driverName": "",
+      "vehicleNumber": "",
+      "remarks": "",
+      "createdAt": "2026-10-26T05:25:45.858Z",
+      "updatedAt": "2026-10-26T11:29:44.077Z"
+    },
+    {
+      "id": "rec_1793088787031_fk22k",
+      "date": "2083-07-10",
+      "itemName": "NOLE PER PIC",
+      "unit": "pic",
+      "quantity": "1",
+      "driverName": "",
+      "vehicleNumber": "",
+      "remarks": "",
+      "createdAt": "2026-10-27T08:13:07.031Z"
+    }
+  ]
+}

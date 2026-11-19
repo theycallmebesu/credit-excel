@@ -1,0 +1,65 @@
+{
+  "customerName": "BASU DOLLU (DOCTOR)",
+  "createdAt": "2026-10-24T05:08:56.040Z",
+  "updatedAt": "2026-10-30T06:11:27.678Z",
+  "entries": [
+    {
+      "id": "rec_1792818536040_b5gys",
+      "date": "2083-07-06",
+      "itemName": "MARBLE CUTTING BALDE (FOR WALL BY SALON PLUMBER)",
+      "unit": "PIC",
+      "quantity": "1",
+      "driverName": "SALON PLUMBER",
+      "vehicleNumber": "",
+      "remarks": "",
+      "createdAt": "2026-10-24T05:08:56.040Z",
+      "updatedAt": "2026-10-30T06:11:27.678Z"
+    },
+    {
+      "id": "rec_1792983047845_84ait",
+      "date": "2083-07-09",
+      "itemName": "WHITE PLASTIC",
+      "unit": "kg",
+      "quantity": "1.800",
+      "driverName": "PURNEY",
+      "vehicleNumber": "DI",
+      "remarks": "",
+      "createdAt": "2026-10-26T02:50:47.845Z",
+      "updatedAt": "2026-10-26T03:50:13.167Z"
+    },
+    {
+      "id": "rec_1792983047845_dmig1",
+      "date": "2083-07-09",
+      "itemName": "SHIVAM CEMENT 43 GRADE",
+      "unit": "bag",
+      "quantity": "25",
+      "driverName": "PURNEY",
+      "vehicleNumber": "DI",
+      "remarks": "",
+      "createdAt": "2026-10-26T02:50:47.845Z",
+      "updatedAt": "2026-10-26T03:50:30.717Z"
+    },
+    {
+      "id": "rec_1792983047845_8ouq6",
+      "date": "2083-07-09",
+      "itemName": "PANI KUCHO",
+      "unit": "pic",
+      "quantity": "4",
+      "driverName": "PURNEY",
+      "vehicleNumber": "DI",
+      "remarks": "",
+      "createdAt": "2026-10-26T02:50:47.845Z"
+    },
+    {
+      "id": "rec_1793340670271_c0ozi",
+      "date": "2083-07-13",
+      "itemName": "BLACK PLASTIC PER KG",
+      "unit": "KG",
+      "quantity": "7.25",
+      "driverName": "BISWESH",
+      "vehicleNumber": "BULLET",
+      "remarks": "",
+      "createdAt": "2026-10-30T06:11:10.271Z"
+    }
+  ]
+}

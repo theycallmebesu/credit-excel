@@ -1,0 +1,29 @@
+{
+  "customerName": "DOLLU RESORT KAM GARNI (BHATTA RAI)",
+  "createdAt": "2026-11-01T05:42:39.617Z",
+  "updatedAt": "2026-11-01T05:42:39.617Z",
+  "entries": [
+    {
+      "id": "rec_1793511759617_7qavk",
+      "date": "2083-07-15",
+      "itemName": "TILE CUTTING BALDE 4 INCH (300 X 4)",
+      "unit": "PIC",
+      "quantity": "4",
+      "driverName": "KAM GARNI",
+      "vehicleNumber": "WALK IN BY BIKE",
+      "remarks": "1200",
+      "createdAt": "2026-11-01T05:42:39.617Z"
+    },
+    {
+      "id": "rec_1793511759617_xtreq",
+      "date": "2083-07-15",
+      "itemName": "PLAIN PATTA PER PIC (WITHOUT HANDLE) (2 PIC X 60)",
+      "unit": "PIC",
+      "quantity": "2",
+      "driverName": "KAM GARNI",
+      "vehicleNumber": "WALK IN BY BIKE",
+      "remarks": "120",
+      "createdAt": "2026-11-01T05:42:39.617Z"
+    }
+  ]
+}

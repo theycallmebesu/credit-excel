@@ -1,0 +1,31 @@
+{
+  "customerName": "VAI KALEY (DOLLU DHYANKENDRA)",
+  "createdAt": "2026-10-29T04:49:22.737Z",
+  "updatedAt": "2026-10-29T09:42:18.957Z",
+  "entries": [
+    {
+      "id": "rec_1793249362737_fly00",
+      "date": "2083-07-12",
+      "itemName": "JCB",
+      "unit": "HR",
+      "quantity": "3.2",
+      "driverName": "JCB",
+      "vehicleNumber": "JCB",
+      "remarks": "BHATTA DISAKEKO CHA",
+      "createdAt": "2026-10-29T04:49:22.737Z",
+      "updatedAt": "2026-10-29T09:42:18.957Z"
+    },
+    {
+      "id": "rec_1793249379562_cdqjo",
+      "date": "2083-07-12",
+      "itemName": "VEHCILE 8012",
+      "unit": "HR",
+      "quantity": "3.2",
+      "driverName": "REJENDRA",
+      "vehicleNumber": "8012",
+      "remarks": "",
+      "createdAt": "2026-10-29T04:49:39.562Z",
+      "updatedAt": "2026-10-29T09:42:09.912Z"
+    }
+  ]
+}

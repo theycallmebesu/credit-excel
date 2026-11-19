@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shree Pasupatinath Hardware - Credit Khata &amp; Daily Sales</title>
+  <meta name="description" content="Offline credit customer ledger and separate daily sales with product analytics chart.">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <!-- Top Navigation Bar -->
+  <header class="navbar">
+    <div class="nav-brand-group">
+      <div class="nav-brand" onclick="navigateTo('customers')">
+        <span class="shop-title" id="navShopName">SHREE PASUPATINATH HARDWARE</span>
+        <span class="app-subtitle">CREDIT KHATA &amp; DAILY SALES</span>
+      </div>
+    </div>
+    <nav class="nav-links">
+      <button class="nav-btn" id="btnNavPriceList" onclick="navigateTo('price-list')">📃 PRICE LIST <span class="price-list-nav-count" id="priceListNavCount">301</span></button>
+      <button class="nav-btn active" id="btnNavCustomers" onclick="navigateToCreditKhata()">📋 Credit Customers (Khata)</button>
+      <button class="nav-btn" id="btnNavCreditSearch" onclick="navigateToCreditSearch()">🔎 Search Sales &amp; Credit</button>
+      <button class="nav-btn" id="btnNavDailySales" onclick="navigateTo('daily-sales')">💰 Daily Sales &amp; Chart</button>
+    </nav>
+  </header>
+
+  <!-- Main Content Container -->
+  <main class="main-content">
+
+    <!-- ================= PRICE LIST ================= -->
+    <section id="view-price-list" class="view-section">
+      <div class="price-list-page">
+        <section class="price-list-toolbar">
+          <form class="price-list-search-row" id="priceListSearchForm" onsubmit="searchPriceList(event)">
+            <label class="sr-only" for="priceListSearchInput">Search price list by product, number, price, or category</label>
+            <div class="price-list-search-wrap">
+              <span class="price-list-search-icon" aria-hidden="true">⌕</span>
+              <input type="search" id="priceListSearchInput" placeholder="SEARCH PRODUCT, NUMBER, OR TOPIC (Press F2 for All Topics)..." autocomplete="off">
+            </div>
+            <button type="submit" class="price-list-search-button">Search</button>
+            <button type="button" class="price-list-add-button" onclick="openPriceItemModal()">＋ Add Product</button>
+          </form>
+
+          <section class="price-topic-panel" aria-label="Product topics and categories">
+            <header class="price-topic-header">
+              <div class="price-topic-title">
+                <span aria-hidden="true">▰</span>
+                <strong>PRODUCT TOPICS / CATEGORIES</strong>
+                <span class="price-topic-count" id="priceTopicCount">Loading categories...</span>
+              </div>
+              <button type="button" class="price-topic-toggle" id="priceTopicToggle" onclick="togglePriceTopics()">Show All Topics ▼</button>
+            </header>
+            <div class="price-topic-chips" id="priceTopicChips"></div>
+          </section>
+
+          <div class="price-list-result-count" id="priceListResultCount" aria-live="polite">Loading items...</div>
+        </section>
+
+        <div class="price-list-groups" id="priceListGroups" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- ================= 1. CREDIT CUSTOMERS DIRECTORY ================= -->
+    <section id="view-customers" class="view-section active">
+      <div class="directory-header">
+        <div class="directory-title-row">
+          <h1 class="directory-title">CREDIT CUSTOMERS DIRECTORY</h1>
+          <span style="font-weight:700; color:#555;" id="totalCustomersSummary">Loading customers...</span>
+        </div>
+
+        <div class="directory-search-grid">
+          <label class="directory-search-card customer-name-search" for="customerSearchInput">
+            <span class="directory-search-title">Find a customer</span>
+            <span class="directory-search-description">Filter the customer list by name.</span>
+            <input type="search" id="customerSearchInput" class="search-customer-input" placeholder="Search customer name..." oninput="onCustomerSearchInput()" autocomplete="off">
+          </label>
+
+          <form class="directory-search-card credit-directory-search" id="creditDirectorySearchForm" onsubmit="searchCreditKhataFromDirectory(event)">
+            <label class="directory-search-title" for="creditKhataSearchInput">Search all credit entries</label>
+            <span class="directory-search-description">Find products and details across every customer's khata.</span>
+            <div class="credit-directory-search-controls">
+              <input type="search" id="creditKhataSearchInput" maxlength="100" placeholder="Item, date, quantity, driver, vehicle, remarks..." autocomplete="off">
+              <button type="submit" class="btn btn-primary">🔎 Search</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="directory-toolbar">
+          <div class="sort-controls customer-sort-controls" aria-label="Sort credit customers">
+            <span class="sort-label">Sort customers:</span>
+            <button type="button" class="btn btn-sort btn-sm active-sort" id="btnCustomerSortModified" onclick="toggleCustomerSort('modifiedAt')">🕒 Last Modified ▼</button>
+            <button type="button" class="btn btn-sort btn-sm" id="btnCustomerSortCount" onclick="toggleCustomerSort('itemCount')"># Credit Items</button>
+          </div>
+          <button type="button" class="btn btn-primary btn-sm" onclick="openBusinessInsights('CREDIT KHATA')">📊 Sales &amp; Credit Report</button>
+        </div>
+
+        <div class="add-customer-bar">
+          <div class="add-customer-copy">
+            <label for="newCustomerInput">Add New Customer</label>
+            <span>Create a new khata in the customer directory.</span>
+          </div>
+          <input type="text" id="newCustomerInput" placeholder="Enter customer name..." autocomplete="off">
+          <button class="btn btn-primary btn-sm" onclick="addNewCustomer()">+ Add Customer</button>
+        </div>
+      </div>
+
+      <div class="customers-grid" id="customersGrid">
+        <!-- Customer cards rendered dynamically -->
+      </div>
+    </section>
+
+    <!-- ================= GLOBAL SALES AND CREDIT SEARCH ================= -->
+    <section id="view-credit-search" class="view-section">
+      <div class="credit-search-page">
+        <header class="credit-search-header">
+          <div>
+            <span class="insights-kicker">DAILY SALES AND ALL CREDIT RECORDS</span>
+            <h1>SEARCH SALES &amp; CREDIT</h1>
+            <p>Search both records together or limit results to sales or credit entries.</p>
+          </div>
+          <button type="button" class="btn btn-secondary" onclick="navigateToCreditKhata()">← Back to Customers</button>
+        </header>
+
+        <form class="credit-search-form" id="creditSearchForm" onsubmit="searchCreditKhata(event)">
+          <label class="sr-only" for="creditSearchInput">Search sales and credit products and information</label>
+          <input type="search" id="creditSearchInput" maxlength="100" placeholder="Search product, customer, date, quantity, price, driver, vehicle, or remarks..." autocomplete="off">
+          <label class="sr-only" for="creditSearchScope">Choose which records to search</label>
+          <select id="creditSearchScope" aria-label="Search scope">
+            <option value="all">Sales + Credit</option>
+            <option value="sales">Sales only</option>
+            <option value="credit">Credit only</option>
+          </select>
+          <label class="sr-only" for="creditSearchDateMode">Choose search date filter</label>
+          <select id="creditSearchDateMode" aria-label="Search date filter" onchange="toggleCreditSearchDateRange()">
+            <option value="all">All dates</option>
+            <option value="today">Today</option>
+            <option value="range">Date range</option>
+          </select>
+          <button type="submit" class="btn btn-primary" id="creditSearchButton">🔎 Search</button>
+        </form>
+        <div class="credit-search-date-range" id="creditSearchDateRange" hidden>
+          <label for="creditSearchFromDate">From date (BS)</label>
+          <input type="text" id="creditSearchFromDate" placeholder="YYYY-MM-DD" inputmode="numeric">
+          <label for="creditSearchToDate">To date (BS)</label>
+          <input type="text" id="creditSearchToDate" placeholder="YYYY-MM-DD" inputmode="numeric">
+        </div>
+        <p class="credit-search-help">Search product, buyer/customer, date, quantity, unit, price, or remarks. Credit results include driver and vehicle details. Examples: BALWA, CUSTOMER 14, 2083-07-11, or CASH.</p>
+        <div class="credit-search-status" id="creditSearchStatus" aria-live="polite">Enter a search term and choose Sales + Credit, Sales only, or Credit only.</div>
+        <div class="credit-search-totals" id="creditSearchTotals" aria-live="polite" hidden></div>
+        <div class="credit-search-results-card">
+          <div class="credit-search-results-wrap">
+            <table class="insight-table credit-search-table">
+              <thead>
+                <tr>
+                  <th>Type</th>
+                  <th>Date (BS)</th>
+                  <th>Buyer / Customer</th>
+                  <th>Product / Item</th>
+                  <th>Quantity</th>
+                  <th>Unit</th>
+                  <th>Rate (Rs)</th>
+                  <th>Total (Rs)</th>
+                  <th>Driver</th>
+                  <th>Vehicle</th>
+                  <th>Remarks</th>
+                </tr>
+              </thead>
+              <tbody id="creditSearchResults">
+                <tr><td colspan="11">Search results will appear here.</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 2. CUSTOMER CREDIT SHEET (EXCEL KHATA) ================= -->
+    <section id="view-ledger" class="view-section">
+      <div class="ledger-header-panel">
+        <div class="ledger-customer-title">
+          <div class="ledger-name-edit-row">
+            <span class="ledger-customer-name" id="ledgerCustomerName">CUSTOMER NAME</span>
+            <button type="button" class="ledger-name-edit-btn" id="btnEditLedgerCustomerName" onclick="editCurrentCustomerName()" title="Edit customer name" aria-label="Edit customer name">✎ EDIT NAME</button>
+          </div>
+          <span style="font-size:0.95rem; font-weight:700; color:#64748b; margin-top:4px;" id="ledgerItemCount">0 items on credit</span>
+        </div>
+
+        <div class="ledger-actions">
+          <button class="btn btn-primary btn-sm" onclick="openBusinessInsights('CREDIT KHATA')">📊 Sales &amp; Credit Report</button>
+          <button class="btn btn-secondary btn-sm" onclick="navigateTo('customers')">&larr; Back to Customers</button>
+          <button class="btn btn-primary btn-sm" onclick="toggleAddEntryForm()">➕ Add Items</button>
+          <button class="btn btn-catalog btn-sm" onclick="openItemsCatalogModal()">📦 Items Catalog</button>
+          <button class="btn btn-secondary btn-sm" onclick="openExportModal('credit')">📥 Export (Date Range)</button>
+          <button class="btn btn-secondary btn-sm" onclick="printCurrentLedger()">🖨️ Print</button>
+        </div>
+      </div>
+
+      <!-- Quick Add Credit Items Form (NO Rate, NO Total) -->
+      <div class="entry-form-card" id="entryFormCard">
+        <div class="entry-form-title">
+          <span>➕ Add Credit Items</span>
+          <div style="display:flex; gap:8px;">
+            <button type="button" class="btn btn-catalog btn-sm" onclick="openItemsCatalogModal()">📦 Pick from Catalog</button>
+            <button type="button" class="btn btn-secondary btn-sm" onclick="toggleAddEntryForm()">Close &times;</button>
+          </div>
+        </div>
+
+        <!-- Meta Bar: Date, Driver, Vehicle -->
+        <div class="entry-meta-bar">
+          <div class="date-controls">
+            <span style="font-weight:700; font-size:0.85rem; text-transform:uppercase;">Date (BS):</span>
+            <select id="entryYear" class="date-select" onchange="onDateDropdownChanged()"></select>
+            <select id="entryMonth" class="date-select" onchange="onDateDropdownChanged()"></select>
+            <select id="entryDay" class="date-select" onchange="onDateDropdownChanged()"></select>
+            <button type="button" class="btn btn-secondary btn-sm" onclick="resetDateToToday()">📅 Today</button>
+          </div>
+
+          <input type="text" id="entryDriverName" class="meta-input" placeholder="Driver Name (optional)">
+          <input type="text" id="entryVehicleNumber" class="meta-input" placeholder="Vehicle No. (optional)">
+        </div>
+
+        <!-- Item Rows Table: S.N. | Item Name | Unit | Quantity | Remarks -->
+        <table class="entry-rows-table" id="entryRowsTable">
+          <thead>
+            <tr>
+              <th style="width: 35px; text-align: center;">S.N.</th>
+              <th>Item Name / Particulars</th>
+              <th style="width: 130px;">Unit (auto, editable)</th>
+              <th style="width: 120px;">Quantity</th>
+              <th style="width: 180px;">Remarks / Note</th>
+              <th style="width: 40px;"></th>
+            </tr>
+          </thead>
+          <tbody id="entryRowsTbody">
+            <!-- Dynamic rows -->
+          </tbody>
+        </table>
+
+        <div class="entry-btn-bar">
+          <button type="button" class="btn btn-secondary btn-sm" onclick="appendEntryRow(true)">➕ Add Another Row</button>
+          <button type="button" class="btn btn-save-big btn-sm" onclick="saveNewEntries()">💾 SAVE TO SHEET</button>
+        </div>
+        <div class="keyboard-flow-tip">
+          ⌨️ <strong>Keyboard:</strong> Press <strong>Enter</strong> to move through date, driver, vehicle and item fields. Use <strong>← / →</strong> to move across item columns and <strong>↑ / ↓</strong> to move between rows. Press Enter on an empty item name to reach Save. Numpad digits work in quantity fields with Num Lock off.
+        </div>
+      </div>
+
+      <!-- Excel Spreadsheet Table: Pure credit items (NO Rate, NO Total) -->
+      <div class="excel-table-card">
+        <div class="excel-toolbar">
+          <div class="toolbar-left-group">
+            <input type="text" id="filterSheetInput" class="filter-sheet-input" placeholder="🔍 Search inside this sheet..." oninput="onFilterSheetInput()">
+            
+            <!-- Ascending Order Sort Controls (Requirement 1) -->
+            <div class="sort-controls">
+              <span class="sort-label">Sort:</span>
+              <button class="btn btn-sort btn-sm active-sort" id="btnSortItemName" onclick="toggleCreditSort('itemName')">🔤 Item (A-Z) ▲</button>
+              <button class="btn btn-sort btn-sm" id="btnSortDate" onclick="toggleCreditSort('date')">📅 Date</button>
+              <button class="btn btn-sort btn-sm" id="btnSortSn" onclick="toggleCreditSort('sn')"># S.N.</button>
+            </div>
+          </div>
+
+          <!-- Date Section Filter: From Date to Which Date (Requirement 2) -->
+          <div class="toolbar-right-group">
+            <div class="date-section-filter">
+              <span class="date-label">From:</span>
+              <input type="text" id="creditFromDate" class="filter-date-input" placeholder="YYYY-MM-DD" oninput="onCreditDateFilterChange()">
+              <span class="date-label">To:</span>
+              <input type="text" id="creditToDate" class="filter-date-input" placeholder="YYYY-MM-DD" oninput="onCreditDateFilterChange()">
+              <button type="button" class="btn btn-secondary btn-sm" id="btnCreditToday" onclick="setCreditTodayFilter()">📅 Today</button>
+              <button type="button" class="btn btn-secondary btn-sm active" id="btnCreditAllDates" onclick="resetCreditDateFilter()">All Dates</button>
+            </div>
+            <span style="font-weight: 700; color: #555; white-space:nowrap;" id="sheetItemCounter">0 entries</span>
+          </div>
+        </div>
+
+        <div class="excel-wrapper">
+          <table class="excel-table" id="customerLedgerTable">
+            <thead>
+              <tr>
+                <th class="col-sn sortable-header" onclick="toggleCreditSort('sn')">S.N. <span id="sortIndicatorSn"></span></th>
+                <th class="col-date sortable-header" onclick="toggleCreditSort('date')">Date (BS) <span id="sortIndicatorDate"></span></th>
+                <th class="col-item sortable-header" onclick="toggleCreditSort('itemName')">Item Name / Particulars <span id="sortIndicatorItem">▲</span></th>
+                <th class="col-unit">Unit</th>
+                <th class="col-qty">Quantity</th>
+                <th>Driver</th>
+                <th>Vehicle No.</th>
+                <th>Remarks</th>
+                <th class="col-actions">Actions</th>
+              </tr>
+            </thead>
+            <tbody id="customerLedgerTbody">
+              <!-- Dynamically populated -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 3. SEPARATE DAILY SALES & CHART ================= -->
+    <section id="view-daily-sales" class="view-section">
+      <div class="sales-dashboard">
+
+        <!-- Record Daily Sale Panel (with Rate & Total) -->
+        <div class="sales-entry-panel">
+          <div class="entry-form-title sales-entry-title">
+            <span>💰 Record Daily Sale</span>
+            <button type="button" class="btn btn-primary btn-sm" onclick="openBusinessInsights('DAILY SALES')">📊 Full Sales &amp; Credit Report</button>
+            <span class="sales-entry-instructions">Customer → product → quantity → rate → record</span>
+          </div>
+
+          <div class="entry-meta-bar sales-entry-meta">
+            <div class="date-controls">
+              <span style="font-weight:700; font-size:0.85rem; text-transform:uppercase;">Date (BS):</span>
+              <select id="saleYear" class="date-select" onchange="onSaleDateChanged()"></select>
+              <select id="saleMonth" class="date-select" onchange="onSaleDateChanged()"></select>
+              <select id="saleDay" class="date-select" onchange="onSaleDateChanged()"></select>
+              <button type="button" class="btn btn-secondary btn-sm" onclick="resetSaleDateToToday()">📅 Today</button>
+            </div>
+
+            <label class="sales-customer-field" for="saleBuyerName">
+              <span>Customer</span>
+              <input type="text" id="saleBuyerName" class="meta-input" placeholder="Auto-numbered; editable">
+            </label>
+          </div>
+
+          <div class="sales-entry-grid">
+            <div class="modal-form-group">
+              <label>Product Name</label>
+              <input type="text" id="saleItemName" class="form-input item-input" placeholder="Type product name..." autocomplete="off">
+            </div>
+
+            <div class="modal-form-group">
+              <label>Unit</label>
+              <input type="text" id="saleUnit" class="form-input" list="commonUnitsDatalist" placeholder="Auto unit or type new unit" autocomplete="off" aria-label="Sale unit (auto-filled or editable)">
+            </div>
+
+            <div class="modal-form-group">
+              <label>Quantity</label>
+              <input type="number" id="saleQty" class="form-input" placeholder="e.g. 10" min="0" step="any" inputmode="decimal" oninput="calculateSaleTotal()">
+            </div>
+
+            <div class="modal-form-group">
+              <label>Rate (Rs)</label>
+              <input type="number" id="saleRate" class="form-input" placeholder="e.g. 750" min="0" step="any" inputmode="decimal" oninput="calculateSaleTotal()">
+            </div>
+
+            <div class="modal-form-group">
+              <label>Total (Rs)</label>
+              <input type="text" id="saleTotal" class="form-input calculated-total" placeholder="0" readonly>
+            </div>
+          </div>
+          <!-- Staged Products Table (Shown when adding multiple products before saving) -->
+          <div id="stagedProductsCard" class="staged-products-card" style="display:none; margin: 12px 0;">
+            <div class="staged-header-row">
+              <span class="staged-title" id="stagedItemsCountBadge">📦 Products Added to Current Sale (0)</span>
+              <span class="staged-total-badge" id="stagedItemsTotalBadge">Total: Rs. 0</span>
+            </div>
+            <div class="excel-wrapper" style="max-height: 180px; overflow-y: auto;">
+              <table class="excel-table">
+                <thead>
+                  <tr>
+                    <th style="width: 40px; text-align: center;">S.N.</th>
+                    <th>Product Name</th>
+                    <th style="width: 75px; text-align: center;">Unit</th>
+                    <th style="width: 80px; text-align: center;">Qty</th>
+                    <th style="width: 100px; text-align: right;">Rate (Rs)</th>
+                    <th style="width: 110px; text-align: right;">Total (Rs)</th>
+                    <th style="width: 50px; text-align: center;">Action</th>
+                  </tr>
+                </thead>
+                <tbody id="stagedProductsTbody"></tbody>
+              </table>
+            </div>
+          </div>
+
+          <div style="display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap; margin-top: 10px;">
+            <input type="text" id="saleRemarks" class="form-input" style="max-width: 450px;" placeholder="Optional payment or delivery note...">
+            <div style="display: flex; gap: 10px; align-items: center;">
+              <button type="button" class="btn btn-secondary" id="btnAddSaleProduct" onclick="addCurrentProductToSale()">➕ Add Product (Enter)</button>
+              <button type="button" class="btn btn-primary" id="btnRecordDailySale" onclick="submitDailySale()">💾 RECORD SALE</button>
+            </div>
+          </div>
+
+          <!-- Keyboard Flow Helper Banner -->
+          <div class="keyboard-flow-tip">
+            ⌨️ <strong>Quick entry:</strong> Enter a customer, product, unit, quantity and rate. Press <strong>Enter</strong> to add each product; when finished, enter an optional note and press <strong>Enter</strong> to save. Numpad digits work in quantity and rate with Num Lock off.
+          </div>
+        </div>
+
+        <!-- Visual Product Sales Charts ("Which product is selling") -->
+        <div class="chart-dashboard">
+          <div class="metrics-grid">
+            <div class="metric-card green">
+              <span class="metric-label">Today's Sales</span>
+              <span class="metric-value" id="metricTotalRevenue">Rs. 0</span>
+              <span class="metric-sub" id="metricTodaySalesSub">Current BS date</span>
+            </div>
+
+            <div class="metric-card">
+              <span class="metric-label">All-time Units Sold</span>
+              <span class="metric-value" id="metricTotalUnits">0</span>
+              <span class="metric-sub">Across all recorded sales</span>
+            </div>
+
+            <div class="metric-card blue">
+              <span class="metric-label">Top Product (All-time)</span>
+              <span class="metric-value" id="metricTopProduct" style="font-size:1.35rem; text-transform:uppercase;">-</span>
+              <span class="metric-sub" id="metricTopProductSub">Highest quantity</span>
+            </div>
+
+            <div class="metric-card purple">
+              <span class="metric-label">Products Sold (All-time)</span>
+              <span class="metric-value" id="metricUniqueCount">0</span>
+              <span class="metric-sub">Different items sold</span>
+            </div>
+          </div>
+
+          <!-- Interactive Charts Row -->
+          <div class="charts-row">
+            <div class="chart-card">
+              <div class="chart-card-header">
+                <span class="chart-card-title">📊 Top Products (All Recorded Sales)</span>
+                <div style="display:flex; gap:6px;">
+                  <button class="btn btn-secondary btn-sm active" id="btnChartModeQty" onclick="switchChartMode('qty')">Quantity</button>
+                  <button class="btn btn-secondary btn-sm" id="btnChartModeSales" onclick="switchChartMode('sales')">Revenue (Rs)</button>
+                </div>
+              </div>
+              <div class="canvas-container">
+                <canvas id="productBarCanvas"></canvas>
+              </div>
+            </div>
+
+            <div class="chart-card">
+              <div class="chart-card-header">
+                <span class="chart-card-title">🥧 Product Share</span>
+              </div>
+              <div class="canvas-container">
+                <canvas id="productPieCanvas"></canvas>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Sales Ranking Table -->
+          <div class="ranking-table-card">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+              <h2 style="font-size:1.25rem; font-weight:800; color:var(--primary-red); text-transform:uppercase;">
+                🏆 Product Sales Ranking
+              </h2>
+              <span style="font-weight:700; color:#555;" id="rankingCounter">0 products ranked</span>
+            </div>
+
+            <div class="excel-wrapper">
+              <table class="excel-table">
+                <thead>
+                  <tr>
+                    <th style="width: 50px; text-align: center;">Rank</th>
+                    <th>Product Name</th>
+                    <th style="width: 80px; text-align: center;">Unit</th>
+                    <th style="width: 120px; text-align: center;">Units Sold</th>
+                    <th style="width: 140px;">Sales Volume</th>
+                    <th style="width: 130px; text-align: right;">Total Sales (Rs)</th>
+                    <th style="width: 90px; text-align: center;">Sales Count</th>
+                    <th style="width: 90px; text-align: right;">Share</th>
+                  </tr>
+                </thead>
+                <tbody id="productRankingTbody">
+                  <!-- Dynamically rendered -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- Daily Sales Ledger Table -->
+        <div class="excel-table-card">
+          <div class="excel-toolbar">
+            <div class="toolbar-left-group">
+              <input type="text" id="salesSearchInput" class="filter-sheet-input" placeholder="🔍 Search daily sales (product, buyer, date)..." oninput="onSalesSearchInput()">
+              
+              <!-- Grouped by Date Toggle (Requirement 3) -->
+              <div class="view-mode-toggle">
+                <button class="btn btn-view-mode btn-sm active" id="btnSalesGrouped" onclick="setSalesViewMode('grouped')">📅 Grouped by Date</button>
+                <button class="btn btn-view-mode btn-sm" id="btnSalesFlat" onclick="setSalesViewMode('flat')">📋 Show All Sales</button>
+              </div>
+              <div class="sort-controls" aria-label="Sort daily sales">
+                <span class="sort-label">Sort sales:</span>
+                <button type="button" class="btn btn-sort btn-sm active-sort" id="btnSalesSortModified" onclick="toggleSalesSort('modifiedAt')">🕒 Modified ▼</button>
+                <button type="button" class="btn btn-sort btn-sm" id="btnSalesSortQuantity" onclick="toggleSalesSort('quantity')"># Quantity</button>
+              </div>
+            </div>
+
+            <!-- Date Section Filter: From Date to Which Date (Requirement 2 & 3) -->
+            <div class="toolbar-right-group">
+              <div class="date-section-filter">
+                <span class="date-label">From:</span>
+                <input type="text" id="salesFromDate" class="filter-date-input" placeholder="YYYY-MM-DD" oninput="onSalesDateFilterChange()">
+                <span class="date-label">To:</span>
+                <input type="text" id="salesToDate" class="filter-date-input" placeholder="YYYY-MM-DD" oninput="onSalesDateFilterChange()">
+                <button type="button" class="btn btn-secondary btn-sm" id="btnSalesToday" onclick="setSalesTodayFilter()">Today</button>
+                <button type="button" class="btn btn-secondary btn-sm active" id="btnSalesAllDates" onclick="resetSalesDateFilter()">All</button>
+              </div>
+
+              <div style="display:flex; gap:8px; align-items:center;">
+                <span style="font-weight: 800; color: var(--success-green); font-size:1.05rem;" id="salesSummaryRevenue">Total: Rs. 0</span>
+                <button type="button" class="btn btn-primary btn-sm" onclick="openSalesInvoices()">🧾 Sales Invoices</button>
+                <button class="btn btn-secondary btn-sm" onclick="openExportModal('sales')">📥 Export (Date Range)</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Grouped by Date Container (Requirement 3) -->
+          <div id="salesGroupedContainer" class="grouped-sales-container">
+            <!-- Dynamically populated with date cards & daily subtotals -->
+          </div>
+
+          <!-- Flat All Sales Spreadsheet (Option to show all sales) -->
+          <div id="salesFlatContainer" style="display:none;" class="excel-wrapper">
+            <table class="excel-table" id="dailySalesTable">
+              <thead>
+                <tr>
+                  <th class="col-sn">S.N.</th>
+                  <th class="col-date">Date (BS)</th>
+                  <th>Buyer / Customer</th>
+                  <th class="col-item">Product Name</th>
+                  <th class="col-unit">Unit</th>
+                  <th class="col-qty">Qty</th>
+                  <th class="col-rate">Rate (Rs)</th>
+                  <th class="col-total">Total (Rs)</th>
+                  <th>Remarks</th>
+                  <th class="col-actions">Actions</th>
+                </tr>
+              </thead>
+              <tbody id="dailySalesTbody">
+                <!-- Dynamically populated -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= FULL-PAGE SALES & CREDIT INSIGHTS ================= -->
+    <section id="view-business-insights" class="view-section">
+      <div class="insights-page">
+        <header class="insights-header">
+          <div>
+            <span class="insights-kicker">BUSINESS OVERVIEW</span>
+            <h1>SALES &amp; CREDIT REPORT</h1>
+            <p id="insightsContext">Separate sales and credit performance</p>
+          </div>
+          <button type="button" class="btn btn-secondary" onclick="closeBusinessInsights()">← Back</button>
+        </header>
+
+        <div class="insights-status" id="insightsStatus">Loading complete business report...</div>
+
+        <nav class="insights-tabs" aria-label="Business report sections">
+          <button type="button" class="active" id="insightTabSales" onclick="switchInsightsTab('sales')">
+            <strong>SALES REPORT</strong><small>Revenue, volume and buyers</small>
+          </button>
+          <button type="button" id="insightTabCredit" onclick="switchInsightsTab('credit')">
+            <strong>CREDIT REPORT</strong><small>Products and customers</small>
+          </button>
+        </nav>
+
+        <div class="insight-panel active" id="insightPanelSales">
+          <div class="insights-metrics sales-metrics">
+            <article class="insights-metric sales"><span>TODAY'S SALES</span><strong id="insightTodaySales">Rs. 0</strong><small id="insightTodayOrders">0 orders</small></article>
+            <article class="insights-metric sales"><span>TOTAL SALES</span><strong id="insightTotalSales">Rs. 0</strong><small id="insightTotalUnits">0 units sold</small></article>
+            <article class="insights-metric neutral"><span>PRODUCT / UNIT GROUPS</span><strong id="insightSalesProducts">0</strong><small id="insightSalesOrders">0 recorded orders</small></article>
+          </div>
+
+          <div class="insights-chart-grid">
+            <article class="insight-card insight-card-wide">
+              <div class="insight-card-head">
+                <div><span>SALES TREND</span><h2>14 Latest Sales Dates</h2></div>
+                <div class="insight-toggle" aria-label="Sales trend measure">
+                  <button type="button" class="active" id="insightTrendRevenue" onclick="switchInsightTrend('revenue')">REVENUE</button>
+                  <button type="button" id="insightTrendUnits" onclick="switchInsightTrend('units')">UNITS</button>
+                </div>
+              </div>
+              <div class="insight-chart-wrap sales-trend-chart"><canvas id="insightTrendCanvas"></canvas></div>
+            </article>
+
+            <article class="insight-card">
+              <div class="insight-card-head"><div><span>TOP SELLERS</span><h2>Best Products by Revenue</h2></div></div>
+              <div class="insight-chart-wrap"><canvas id="insightRevenueCanvas"></canvas></div>
+            </article>
+
+            <article class="insight-card">
+              <div class="insight-card-head"><div><span>CUSTOMER VALUE</span><h2>Highest Revenue Buyers</h2></div></div>
+              <div class="insight-table-wrap"><table class="insight-table"><thead><tr><th>Rank</th><th>Customer</th><th>Purchase Total</th></tr></thead><tbody id="insightTopBuyers"></tbody></table></div>
+            </article>
+          </div>
+
+          <article class="insight-card insight-full-detail">
+            <div class="insight-card-head"><div><span>PRODUCT PERFORMANCE</span><h2>Complete Sales Ranking</h2><small>Ranked by total quantity sold; products are separated by unit.</small></div></div>
+            <div class="insight-table-wrap"><table class="insight-table"><thead><tr><th>Rank</th><th>Product</th><th>Units Sold</th><th>Orders</th><th>Revenue</th></tr></thead><tbody id="insightSalesRanking"></tbody></table></div>
+          </article>
+
+          <article class="insight-card insight-full-detail">
+            <div class="insight-card-head"><div><span>TRANSACTION DETAILS</span><h2>All Sales Items and Prices</h2></div></div>
+            <div class="insight-table-wrap"><table class="insight-table"><thead><tr><th>Date (BS)</th><th>Buyer / Customer</th><th>Product</th><th>Quantity</th><th>Rate / Price</th><th>Total</th></tr></thead><tbody id="insightSalesRecords"></tbody></table></div>
+          </article>
+        </div>
+
+        <div class="insight-panel" id="insightPanelCredit">
+          <div class="insights-metrics credit-metrics">
+            <article class="insights-metric credit"><span>CREDIT ITEMS</span><strong id="insightCreditItems">0</strong><small id="insightCreditCustomers">0 customers</small></article>
+            <article class="insights-metric credit"><span>PRODUCT / UNIT GROUPS</span><strong id="insightCreditProducts">0</strong><small>Same product is split by unit</small></article>
+            <article class="insights-metric credit"><span>TOTAL CREDIT QUANTITY</span><strong id="insightCreditQuantity">0</strong><small>Combined sum; use the unit-separated chart below</small></article>
+          </div>
+
+          <div class="insights-chart-grid credit-grid">
+            <article class="insight-card insight-card-wide">
+              <div class="insight-card-head"><div><span>CREDIT DEMAND</span><h2>Top Credit Products by Quantity</h2></div></div>
+              <div class="insight-chart-wrap credit-chart"><canvas id="insightCreditCanvas"></canvas></div>
+            </article>
+
+            <article class="insight-card insight-full-detail">
+              <div class="insight-card-head"><div><span>PRODUCT PERFORMANCE</span><h2>All Credit Products by Unit</h2></div></div>
+              <div class="insight-table-wrap"><table class="insight-table"><thead><tr><th>Rank</th><th>Product</th><th>Unit</th><th>Total Quantity</th><th>Credit Entries</th></tr></thead><tbody id="insightCreditRanking"></tbody></table></div>
+            </article>
+
+            <article class="insight-card insight-full-detail">
+              <div class="insight-card-head"><div><span>OUTSTANDING ACTIVITY</span><h2>Top Credit Customers</h2></div></div>
+              <div class="insight-table-wrap"><table class="insight-table"><thead><tr><th>Rank</th><th>Customer</th><th>Credit Items</th></tr></thead><tbody id="insightCreditCustomersTable"></tbody></table></div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= EDIT CREDIT ENTRY MODAL ================= -->
+  <div class="modal-overlay" id="modalEditCreditEntry">
+    <div class="modal-card">
+      <div class="modal-header">
+        <span class="modal-title">Edit Credit Item</span>
+        <button class="modal-close-btn" onclick="closeEditCreditModal()">&times;</button>
+      </div>
+      <div class="modal-body">
+        <input type="hidden" id="editCreditId">
+
+        <div class="modal-grid-2">
+          <div class="modal-form-group">
+            <label>Date (BS)</label>
+            <input type="text" id="editCreditDate" class="modal-input" placeholder="YYYY-MM-DD">
+          </div>
+          <div class="modal-form-group">
+            <label>Item Name</label>
+            <input type="text" id="editCreditItemName" class="modal-input" style="text-transform: uppercase;">
+          </div>
+        </div>
+
+        <div class="modal-grid-2">
+          <div class="modal-form-group">
+            <label>Unit</label>
+            <input type="text" id="editCreditUnit" class="modal-input" placeholder="bag, pic, kg...">
+          </div>
+          <div class="modal-form-group">
+            <label>Quantity</label>
+            <input type="text" id="editCreditQty" class="modal-input" placeholder="e.g. 10">
+          </div>
+        </div>
+
+        <div class="modal-grid-2">
+          <div class="modal-form-group">
+            <label>Driver Name</label>
+            <input type="text" id="editCreditDriver" class="modal-input">
+          </div>
+          <div class="modal-form-group">
+            <label>Vehicle Number</label>
+            <input type="text" id="editCreditVehicle" class="modal-input">
+          </div>
+        </div>
+
+        <div class="modal-form-group">
+          <label>Remarks / Notes</label>
+          <input type="text" id="editCreditRemarks" class="modal-input">
+        </div>
+
+        <div style="display: flex; justify-content: flex-end; gap: 10px; margin-top: 8px;">
+          <button type="button" class="btn btn-secondary" onclick="closeEditCreditModal()">Cancel</button>
+          <button type="button" class="btn btn-primary" onclick="submitEditCreditEntry()">Save Changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= EDIT DAILY SALE MODAL ================= -->
+  <div class="modal-overlay" id="modalEditSaleEntry">
+    <div class="modal-card">
+      <div class="modal-header">
+        <span class="modal-title">Edit Daily Sale</span>
+        <button class="modal-close-btn" onclick="closeEditSaleModal()">&times;</button>
+      </div>
+      <div class="modal-body">
+        <input type="hidden" id="editSaleId">
+
+        <div class="modal-grid-2">
+          <div class="modal-form-group">
+            <label>Date (BS)</label>
+            <input type="text" id="editSaleDate" class="modal-input">
+          </div>
+          <div class="modal-form-group">
+            <label>Buyer / Customer</label>
+            <input type="text" id="editSaleBuyer" class="modal-input">
+          </div>
+        </div>
+
+        <div class="modal-form-group">
+          <label>Product Name</label>
+          <input type="text" id="editSaleItemName" class="modal-input" style="text-transform: uppercase;">
+        </div>
+
+        <div class="modal-grid-3">
+          <div class="modal-form-group">
+            <label>Unit</label>
+            <input type="text" id="editSaleUnit" class="modal-input">
+          </div>
+          <div class="modal-form-group">
+            <label>Quantity</label>
+            <input type="number" id="editSaleQty" class="modal-input" step="any" oninput="calculateModalSaleTotal()">
+          </div>
+          <div class="modal-form-group">
+            <label>Rate (Rs)</label>
+            <input type="number" id="editSaleRate" class="modal-input" step="any" oninput="calculateModalSaleTotal()">
+          </div>
+        </div>
+
+        <div class="modal-form-group">
+          <label>Total (Rs)</label>
+          <input type="text" id="editSaleTotal" class="modal-input calculated-total" readonly>
+        </div>
+
+        <div class="modal-form-group">
+          <label>Remarks</label>
+          <input type="text" id="editSaleRemarks" class="modal-input">
+        </div>
+
+        <div style="display: flex; justify-content: flex-end; gap: 10px; margin-top: 8px;">
+          <button type="button" class="btn btn-secondary" onclick="closeEditSaleModal()">Cancel</button>
+          <button type="button" class="btn btn-primary" onclick="submitEditSaleEntry()">Save Changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= DAILY SALES INVOICES ================= -->
+  <div class="modal-overlay" id="modalSalesInvoices" role="dialog" aria-modal="true" aria-labelledby="salesInvoicesTitle">
+    <div class="modal-card sales-invoices-modal-card">
+      <div class="modal-header">
+        <div>
+          <h2 class="modal-title" id="salesInvoicesTitle">Daily Sales Invoices</h2>
+          <p class="sales-invoices-subtitle">HARDWARE PASAL · One invoice for all items in a customer's sale</p>
+        </div>
+        <button type="button" class="modal-close-btn" aria-label="Close invoices" onclick="closeSalesInvoices()">&times;</button>
+      </div>
+      <div class="modal-body sales-invoices-modal-body">
+        <div class="sales-invoice-filters">
+          <label>
+            <span>Search invoices</span>
+            <input type="search" id="salesInvoiceSearch" class="modal-input" placeholder="Customer, item, date, qty, rate, amount, remarks..." oninput="renderSalesInvoices()" autocomplete="off">
+          </label>
+          <label>
+            <span>From date (BS)</span>
+            <input type="text" id="salesInvoiceFromDate" class="modal-input" placeholder="YYYY-MM-DD" oninput="renderSalesInvoices()">
+          </label>
+          <label>
+            <span>To date (BS)</span>
+            <input type="text" id="salesInvoiceToDate" class="modal-input" placeholder="YYYY-MM-DD" oninput="renderSalesInvoices()">
+          </label>
+        </div>
+        <div class="sales-invoice-result-count" id="salesInvoiceResultCount" aria-live="polite"></div>
+        <div id="salesInvoicesList" class="sales-invoices-list"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= PRICE LIST PRODUCT MODAL ================= -->
+  <div class="modal-overlay" id="modalPriceItem" role="dialog" aria-modal="true" aria-labelledby="priceItemModalTitle">
+    <div class="modal-card price-item-modal-card">
+      <header class="modal-header">
+        <div>
+          <h2 class="modal-title" id="priceItemModalTitle">Add New Product</h2>
+          <p class="price-item-modal-subtitle">Step-by-step entry (Enter = Next / Save)</p>
+        </div>
+        <button type="button" class="modal-close-btn" aria-label="Close product form" onclick="closePriceItemModal()">×</button>
+      </header>
+      <div class="price-item-stepper" aria-hidden="true">
+        <span class="active" data-step="1">1&nbsp; Topic</span><b>→</b>
+        <span data-step="2">2&nbsp; Product Name</span><b>→</b>
+        <span data-step="3">3&nbsp; Price</span><b>→</b>
+        <span data-step="4">↵&nbsp; Save</span>
+      </div>
+      <form class="modal-body price-item-form" id="priceItemForm" onsubmit="savePriceItem(event)">
+        <input type="hidden" id="priceItemId">
+        <div class="modal-form-group">
+          <label for="priceItemTopic">1. TOPIC / CATEGORY *</label>
+          <select id="priceItemTopic" class="modal-input" required>
+            <option value="">Choose category</option>
+            <option value="__NEW__">＋ New Topic</option>
+          </select>
+        </div>
+        <div class="modal-form-group" id="priceItemNewTopicGroup" hidden>
+          <label for="priceItemNewTopic">NEW TOPIC NAME *</label>
+          <input type="text" id="priceItemNewTopic" class="modal-input" placeholder="Enter new category">
+        </div>
+        <div class="modal-form-group">
+          <label for="priceItemName">2. PRODUCT NAME *</label>
+          <input type="text" id="priceItemName" class="modal-input" placeholder="e.g. SHIVAM CEMENT 43 GRADE" autocomplete="off" required>
+        </div>
+        <div class="modal-form-group">
+          <label for="priceItemPrice">3. PRICE (Rs. or FREE) *</label>
+          <input type="text" id="priceItemPrice" class="modal-input" placeholder="e.g. 850, 12.5, or FREE" autocomplete="off" required>
+          <small>Enter a price or type FREE.</small>
+        </div>
+        <div class="price-item-form-error" id="priceItemError" role="alert" hidden></div>
+        <div class="price-item-form-actions">
+          <button type="button" class="btn btn-secondary" onclick="closePriceItemModal()">Back&nbsp; <kbd>Esc</kbd></button>
+          <button type="submit" class="btn btn-primary" id="priceItemSaveButton">Save &amp; Add Next&nbsp; <kbd>↵ Enter</kbd></button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- ================= ITEMS CATALOG MODAL (Requirement 6) ================= -->
+  <div class="modal-overlay" id="modalItemsCatalog">
+    <div class="modal-card modal-catalog-card">
+      <div class="modal-header">
+        <span class="modal-title">📦 Hardware Items Catalog (<span id="catalogTotalBadge">0</span> Items)</span>
+        <button class="modal-close-btn" onclick="closeItemsCatalogModal()">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="catalog-toolbar">
+          <input type="text" id="catalogSearchInput" class="form-input catalog-search-input" placeholder="🔍 Search items by name (e.g. CEMENT, JASTA, PIPE, TILE, 4 INCH)..." oninput="filterCatalogItems()" autocomplete="off">
+          <button class="btn btn-primary btn-sm" onclick="openNewCatalogItemModal()">+ Add New Item</button>
+        </div>
+        <div class="catalog-tip">
+          💡 Click <strong>➕ Add to Khata</strong> on any item to automatically insert it into the credit items table!
+        </div>
+        <div class="catalog-items-grid" id="catalogItemsGrid">
+          <!-- Dynamically populated catalog items -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= EXPORT WITH DATE RANGE MODAL (Requirement 2 & 3) ================= -->
+  <div class="modal-overlay" id="modalExportDateRange">
+    <div class="modal-card export-modal-card">
+      <div class="modal-header">
+        <span class="modal-title" id="exportModalTitle">📥 Export Records</span>
+        <button class="modal-close-btn" onclick="closeExportModal()">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div style="margin-bottom:14px; font-size:0.95rem; color:#475569;" id="exportModalDesc">
+          Select date section to export:
+        </div>
+
+        <div id="salesExportOptions" class="export-sales-options" style="display:none;">
+          <span class="export-option-label">Daily sales layout</span>
+          <div class="view-mode-toggle">
+            <button type="button" class="btn btn-view-mode btn-sm active" id="btnExportGrouped" onclick="setSalesExportGrouping('grouped')">📅 Group by date</button>
+            <button type="button" class="btn btn-view-mode btn-sm" id="btnExportFlat" onclick="setSalesExportGrouping('flat')">📋 One list</button>
+          </div>
+        </div>
+
+        <div class="modal-grid-2">
+          <div class="modal-form-group">
+            <label>From Date (BS)</label>
+            <input type="text" id="exportFromDate" class="modal-input" placeholder="YYYY-MM-DD (e.g. 2081-01-01)">
+          </div>
+          <div class="modal-form-group">
+            <label>To Date (BS)</label>
+            <input type="text" id="exportToDate" class="modal-input" placeholder="YYYY-MM-DD (e.g. 2083-07-07)">
+          </div>
+        </div>
+
+        <div style="display:flex; gap:8px; margin: 10px 0 16px 0; flex-wrap:wrap;">
+          <button type="button" class="btn btn-secondary btn-sm active" onclick="setExportRangePreset('today')">📅 Today Only</button>
+          <button type="button" class="btn btn-secondary btn-sm" onclick="setExportRangePreset('thisMonth')">This Month</button>
+          <button type="button" class="btn btn-secondary btn-sm" onclick="setExportRangePreset('all')">All Dates</button>
+        </div>
+
+        <div style="display:flex; justify-content:flex-end; gap:10px; margin-top:16px;">
+          <button type="button" class="btn btn-secondary" onclick="closeExportModal()">Cancel</button>
+          <button type="button" class="btn btn-secondary" onclick="triggerDateRangeExport('pdf')">📄 PDF</button>
+          <button type="button" class="btn btn-primary" onclick="triggerDateRangeExport('excel')">📊 Excel (.xlsx)</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= ADD NEW CATALOG ITEM MODAL ================= -->
+  <div class="modal-overlay" id="modalNewCatalogItem">
+    <div class="modal-card" style="max-width: 440px;">
+      <div class="modal-header">
+        <span class="modal-title">➕ Add Item to Catalog</span>
+        <button class="modal-close-btn" onclick="closeNewCatalogItemModal()">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-form-group">
+          <label>Item / Product Name</label>
+          <input type="text" id="newCatalogName" class="modal-input" placeholder="e.g. ULTRA TECH CEMENT" style="text-transform:uppercase;" autocomplete="off">
+        </div>
+        <div class="modal-form-group">
+          <label>Price / Rate (Rs)</label>
+          <input type="text" id="newCatalogPrice" class="modal-input" placeholder="e.g. 850 or FREE" autocomplete="off">
+        </div>
+        <div style="display:flex; justify-content:flex-end; gap:10px; margin-top:14px;">
+          <button type="button" class="btn btn-secondary" onclick="closeNewCatalogItemModal()">Cancel</button>
+          <button type="button" class="btn btn-primary" onclick="submitNewCatalogItem()">Save to Catalog</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Shared Datalist for Unit Autocomplete / Selection -->
+  <datalist id="commonUnitsDatalist"></datalist>
+
+  <!-- Autocomplete Suggestions Floating Element -->
+  <div class="suggestions-popup" id="suggestionsPopup"></div>
+
+  <!-- Printable Area for Browser Print -->
+  <div id="printable-area"></div>
+
+  <!-- Toast Container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- Scripts -->
+  <script src="/js/nepali-date-converter.umd.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>

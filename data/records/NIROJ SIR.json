@@ -1,0 +1,152 @@
+{
+  "customerName": "NIROJ SIR",
+  "createdAt": "2026-10-27T11:39:41.711Z",
+  "updatedAt": "2026-10-29T10:20:47.235Z",
+  "entries": [
+    {
+      "id": "rec_1793101181711_czynq",
+      "date": "2083-07-11",
+      "itemName": "6 FT POLE 75 PIC X 650",
+      "unit": "PIC",
+      "quantity": "75",
+      "driverName": "SUPARI",
+      "vehicleNumber": "3726",
+      "remarks": "48,750",
+      "createdAt": "2026-10-27T11:39:41.711Z",
+      "updatedAt": "2026-10-28T06:03:40.103Z"
+    },
+    {
+      "id": "rec_1793167414546_oguj5",
+      "date": "2083-07-11",
+      "itemName": "TRANSPORATATION",
+      "unit": "TIP",
+      "quantity": "1",
+      "driverName": "SUPARI",
+      "vehicleNumber": "3726",
+      "remarks": "5000",
+      "createdAt": "2026-10-28T06:03:34.546Z"
+    },
+    {
+      "id": "rec_1793167414546_gigva",
+      "date": "2083-07-11",
+      "itemName": "POLE LOAD UNLOAD (BIG) GREATER THAN 3 FT",
+      "unit": "PIC",
+      "quantity": "75",
+      "driverName": "SUPARI",
+      "vehicleNumber": "3726",
+      "remarks": "1500",
+      "createdAt": "2026-10-28T06:03:34.546Z"
+    },
+    {
+      "id": "rec_1793191523881_j457z",
+      "date": "2083-07-11",
+      "itemName": "RODA",
+      "unit": "HALF..TIP",
+      "quantity": "0.5",
+      "driverName": "SHIVEY",
+      "vehicleNumber": "9155",
+      "remarks": "6500",
+      "createdAt": "2026-10-28T12:45:23.881Z"
+    },
+    {
+      "id": "rec_1793191523881_dpc8p",
+      "date": "2083-07-11",
+      "itemName": "BALWA",
+      "unit": "HALF..TIP",
+      "quantity": "0.5",
+      "driverName": "SHIVEY",
+      "vehicleNumber": "9155",
+      "remarks": "6500",
+      "createdAt": "2026-10-28T12:45:23.881Z"
+    },
+    {
+      "id": "rec_1793191523881_3d430",
+      "date": "2083-07-11",
+      "itemName": "PPC CEMENT",
+      "unit": "BAG",
+      "quantity": "10",
+      "driverName": "SHIVEY",
+      "vehicleNumber": "9155",
+      "remarks": "6700",
+      "createdAt": "2026-10-28T12:45:23.881Z"
+    },
+    {
+      "id": "rec_1793191523881_f0epc",
+      "date": "2083-07-11",
+      "itemName": "LOAD",
+      "unit": "BAG",
+      "quantity": "10",
+      "driverName": "SHIVEY",
+      "vehicleNumber": "9155",
+      "remarks": "100",
+      "createdAt": "2026-10-28T12:45:23.881Z"
+    },
+    {
+      "id": "rec_1793191523881_2r8dk",
+      "date": "2083-07-11",
+      "itemName": "TRANSPORATATION",
+      "unit": "TIP",
+      "quantity": "1",
+      "driverName": "SHIVEY",
+      "vehicleNumber": "9155",
+      "remarks": "5000",
+      "createdAt": "2026-10-28T12:45:23.881Z"
+    },
+    {
+      "id": "rec_1793191523881_9d8np",
+      "date": "2083-07-11",
+      "itemName": "TRIPAL (WHITE) 15 X 18",
+      "unit": "PIC",
+      "quantity": "1",
+      "driverName": "SHIVEY",
+      "vehicleNumber": "9155",
+      "remarks": "1296",
+      "createdAt": "2026-10-28T12:45:23.881Z"
+    },
+    {
+      "id": "rec_1793191523881_flqy6",
+      "date": "2083-07-11",
+      "itemName": "BLACK PLASTIC PER KG",
+      "unit": "KG",
+      "quantity": "2.560",
+      "driverName": "SHIVEY",
+      "vehicleNumber": "9155",
+      "remarks": "435.2",
+      "createdAt": "2026-10-28T12:45:23.881Z"
+    },
+    {
+      "id": "rec_1793249454746_7wp97",
+      "date": "2083-07-12",
+      "itemName": "WATER PIPE HALF INCH 8.85 KG X 250",
+      "unit": "KG",
+      "quantity": "8.85",
+      "driverName": "SUPARI",
+      "vehicleNumber": "3726",
+      "remarks": "2212.5",
+      "createdAt": "2026-10-29T04:50:54.746Z",
+      "updatedAt": "2026-10-29T05:23:49.213Z"
+    },
+    {
+      "id": "rec_1793249454746_x4eso",
+      "date": "2083-07-12",
+      "itemName": "TRANSPORATATION WITH PIPE AND BOTTLE HOUSE SUPPLY",
+      "unit": "TIP",
+      "quantity": "1",
+      "driverName": "SUPARI",
+      "vehicleNumber": "3726",
+      "remarks": "5000",
+      "createdAt": "2026-10-29T04:50:54.746Z"
+    },
+    {
+      "id": "rec_1793269247234_sx4vm",
+      "date": "2083-07-12",
+      "itemName": "LOAD AND UNLOAD OF TANKI , TUNNEL PIPE , KATH ETC",
+      "unit": "LOAD",
+      "quantity": "1",
+      "driverName": "SUPARI",
+      "vehicleNumber": "3726",
+      "remarks": "500",
+      "createdAt": "2026-10-29T10:20:47.234Z"
+    }
+  ]
+}

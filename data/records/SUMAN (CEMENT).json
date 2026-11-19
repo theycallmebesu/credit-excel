@@ -1,0 +1,30 @@
+{
+  "customerName": "SUMAN (CEMENT)",
+  "createdAt": "2026-10-28T08:22:12.614Z",
+  "updatedAt": "2026-10-29T04:56:33.270Z",
+  "entries": [
+    {
+      "id": "rec_1793175732614_7v0d2",
+      "date": "2083-07-11",
+      "itemName": "OPC SHIVAM CEMENT (43)",
+      "unit": "BAG",
+      "quantity": "210",
+      "driverName": "",
+      "vehicleNumber": "2815",
+      "remarks": "(NO DHALA KHARCHA) BA PRA 03 001 KHA 2815",
+      "createdAt": "2026-10-28T08:22:12.614Z",
+      "updatedAt": "2026-10-29T04:56:03.926Z"
+    },
+    {
+      "id": "rec_1793249793270_ywvhn",
+      "date": "2083-07-12",
+      "itemName": "OPC SHIVAM CEMENT (43)",
+      "unit": "BAG",
+      "quantity": "210",
+      "driverName": "",
+      "vehicleNumber": "2815",
+      "remarks": "NO DHALA KHARCHA TALA GODAM MA JHARYA CHA",
+      "createdAt": "2026-10-29T04:56:33.270Z"
+    }
+  ]
+}

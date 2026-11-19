@@ -1,0 +1,90 @@
+{
+  "customerName": "BHOTEY TIPPER",
+  "createdAt": "2026-10-29T02:28:29.289Z",
+  "updatedAt": "2026-11-02T02:51:18.416Z",
+  "entries": [
+    {
+      "id": "rec_1793240909289_d6z0t",
+      "date": "2083-07-11",
+      "itemName": "BALWA (MASINO) BY TIPPER RATI",
+      "unit": "TIPPER",
+      "quantity": "1",
+      "driverName": "",
+      "vehicleNumber": "",
+      "remarks": "RATI",
+      "createdAt": "2026-10-29T02:28:29.289Z",
+      "updatedAt": "2026-10-29T02:41:53.952Z"
+    },
+    {
+      "id": "rec_1793240909289_p55ho",
+      "date": "2083-07-11",
+      "itemName": "BALWA (MASINO) BY TIPPER RATI",
+      "unit": "TIPPER",
+      "quantity": "1",
+      "driverName": "",
+      "vehicleNumber": "",
+      "remarks": "RATI",
+      "createdAt": "2026-10-29T02:28:29.289Z",
+      "updatedAt": "2026-10-29T02:41:58.197Z"
+    },
+    {
+      "id": "rec_1793328252227_ovuog",
+      "date": "2083-07-12",
+      "itemName": "BALWA (KHASO)",
+      "unit": "TIPPER",
+      "quantity": "1",
+      "driverName": "BHOTEY",
+      "vehicleNumber": "3233",
+      "remarks": "3233",
+      "createdAt": "2026-10-30T02:44:12.227Z",
+      "updatedAt": "2026-10-31T02:53:38.284Z"
+    },
+    {
+      "id": "rec_1793328287427_7hi9x",
+      "date": "2083-07-12",
+      "itemName": "BALWA (KHASRO)",
+      "unit": "TIPPER",
+      "quantity": "1",
+      "driverName": "BHOTEY",
+      "vehicleNumber": "",
+      "remarks": "2026-10-29 22:38:55",
+      "createdAt": "2026-10-30T02:44:47.427Z",
+      "updatedAt": "2026-10-31T02:53:43.692Z"
+    },
+    {
+      "id": "rec_1793415193501_r96wi",
+      "date": "2083-07-13",
+      "itemName": "BALWA (MASINO) BY TIPPER RATI",
+      "unit": "TIPPER",
+      "quantity": "2",
+      "driverName": "BHOTEY",
+      "vehicleNumber": "",
+      "remarks": "",
+      "createdAt": "2026-10-31T02:53:13.501Z"
+    },
+    {
+      "id": "rec_1793534897739_1y8z9",
+      "date": "2083-07-14",
+      "itemName": "BALWA (MASINO) BY TIPPER RATI",
+      "unit": "TIPPER",
+      "quantity": "1",
+      "driverName": "BHOTEY",
+      "vehicleNumber": "unkown",
+      "remarks": "2026-10-31  22:15:06",
+      "createdAt": "2026-11-01T12:08:17.739Z",
+      "updatedAt": "2026-11-01T12:08:25.120Z"
+    },
+    {
+      "id": "rec_1793587456308_d73e7",
+      "date": "2083-07-15",
+      "itemName": "BALWA",
+      "unit": "TIPPER",
+      "quantity": "2",
+      "driverName": "BHOTEY",
+      "vehicleNumber": "??",
+      "remarks": "2026-11-01  22 ;15  :23",
+      "createdAt": "2026-11-02T02:44:16.308Z",
+      "updatedAt": "2026-11-02T02:51:18.416Z"
+    }
+  ]
+}

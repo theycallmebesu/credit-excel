@@ -1,0 +1,30 @@
+{
+  "customerName": "RAJENDRA UNLCE (9803966270)",
+  "createdAt": "2026-10-27T07:21:52.061Z",
+  "updatedAt": "2026-11-02T04:38:12.382Z",
+  "entries": [
+    {
+      "id": "rec_1793085712061_51nuo",
+      "date": "2083-07-10",
+      "itemName": "TILE 16 X 16 PER SQ FT",
+      "unit": "SQ FT",
+      "quantity": "160",
+      "driverName": "VAN",
+      "vehicleNumber": "SELF WITH DRIVER VAN",
+      "remarks": "but 15 box lageko cha",
+      "createdAt": "2026-10-27T07:21:52.061Z",
+      "updatedAt": "2026-11-02T04:38:12.382Z"
+    },
+    {
+      "id": "rec_1793085712061_z4hpk",
+      "date": "2083-07-10",
+      "itemName": "RIDDI SIDDI CEMENT PPC",
+      "unit": "bag",
+      "quantity": "1",
+      "driverName": "VAN",
+      "vehicleNumber": "SELF WITH DRIVER VAN",
+      "remarks": "",
+      "createdAt": "2026-10-27T07:21:52.061Z"
+    }
+  ]
+}

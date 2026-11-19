@@ -1,0 +1,1808 @@
+[
+  {
+    "id": "item_1",
+    "topic": "CEMENT",
+    "name": "SHIVAM CEMENT 43 GRADE",
+    "price": "850"
+  },
+  {
+    "id": "item_2",
+    "topic": "CEMENT",
+    "name": "SHIVAM CEMENT 53 GRADE",
+    "price": "845"
+  },
+  {
+    "id": "item_3",
+    "topic": "CEMENT",
+    "name": "RIDDI SIDDI CEMENT OPC",
+    "price": "770"
+  },
+  {
+    "id": "item_4",
+    "topic": "CEMENT",
+    "name": "ADC CEMENT PER BAG",
+    "price": "700"
+  },
+  {
+    "id": "item_5",
+    "topic": "CEMENT",
+    "name": "ACC BLOCK CHEMICAL PER BAG",
+    "price": "1300"
+  },
+  {
+    "id": "item_6",
+    "topic": "CEMENT",
+    "name": "RIDDI SIDDI CEMENT PPC",
+    "price": "670"
+  },
+  {
+    "id": "item_7",
+    "topic": "CEMENT",
+    "name": "LOAD UNLOAD",
+    "price": "10"
+  },
+  {
+    "id": "item_8",
+    "topic": "TMT ROD",
+    "name": "10, 12, 16 MM TMT NARAYANI",
+    "price": "108"
+  },
+  {
+    "id": "item_9",
+    "topic": "TMT ROD",
+    "name": "8, 20 MM TMT ROD NARAYANI",
+    "price": "111"
+  },
+  {
+    "id": "item_10",
+    "topic": "TMT ROD",
+    "name": "LOAD AND UNLOAD PER BUNDLE",
+    "price": "50"
+  },
+  {
+    "id": "item_11",
+    "topic": "BALWA, RODA, CHIPS, DHUNGA (SAND AND STONE)",
+    "name": "BALWA 100 SQ FT (PHARPING)",
+    "price": "13000"
+  },
+  {
+    "id": "item_12",
+    "topic": "BALWA, RODA, CHIPS, DHUNGA (SAND AND STONE)",
+    "name": "BALWA 100 SQ FT (HUMANE)",
+    "price": "14000"
+  },
+  {
+    "id": "item_13",
+    "topic": "BALWA, RODA, CHIPS, DHUNGA (SAND AND STONE)",
+    "name": "CHIPS 100 SQ FT (PHARPING)",
+    "price": "13000"
+  },
+  {
+    "id": "item_14",
+    "topic": "BALWA, RODA, CHIPS, DHUNGA (SAND AND STONE)",
+    "name": "CHIPS 100 SQ FT (HUMANE)",
+    "price": "14000"
+  },
+  {
+    "id": "item_15",
+    "topic": "BALWA, RODA, CHIPS, DHUNGA (SAND AND STONE)",
+    "name": "RODA 100 SQ FT (PHARPING)",
+    "price": "13000"
+  },
+  {
+    "id": "item_16",
+    "topic": "BALWA, RODA, CHIPS, DHUNGA (SAND AND STONE)",
+    "name": "RODA 100 SQ FT (HUMANE)",
+    "price": "14000"
+  },
+  {
+    "id": "item_17",
+    "topic": "BALWA, RODA, CHIPS, DHUNGA (SAND AND STONE)",
+    "name": "DHUNGA 100 SQ FT (PHARPING) SHORTAGE",
+    "price": "14000"
+  },
+  {
+    "id": "item_18",
+    "topic": "BALWA, RODA, CHIPS, DHUNGA (SAND AND STONE)",
+    "name": "DHUNGA 100 SQ FT (HUMANE) SHORTAGE",
+    "price": "15000"
+  },
+  {
+    "id": "item_19",
+    "topic": "BALWA, RODA, CHIPS, DHUNGA (SAND AND STONE)",
+    "name": "BAHIRA GADI PER SQ FT (BALWA DHUNGA CHIPS RODA)",
+    "price": "130"
+  },
+  {
+    "id": "item_20",
+    "topic": "BALWA, RODA, CHIPS, DHUNGA (SAND AND STONE)",
+    "name": "LOAD BAHIRA GADI PER TIP",
+    "price": "500"
+  },
+  {
+    "id": "item_21",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "FEVICOL 1KG",
+    "price": "700"
+  },
+  {
+    "id": "item_22",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "TARPEN",
+    "price": "150"
+  },
+  {
+    "id": "item_23",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "KILA",
+    "price": "150"
+  },
+  {
+    "id": "item_24",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "GI WIRE",
+    "price": "190"
+  },
+  {
+    "id": "item_25",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "KADE TAR",
+    "price": "200"
+  },
+  {
+    "id": "item_26",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "WHITE CEMENT PER KG",
+    "price": "100"
+  },
+  {
+    "id": "item_27",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "DORI",
+    "price": "10"
+  },
+  {
+    "id": "item_28",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "PANI KUCHO",
+    "price": "25"
+  },
+  {
+    "id": "item_29",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "JHADU",
+    "price": "100"
+  },
+  {
+    "id": "item_30",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "AMRISO KUCHO",
+    "price": "100"
+  },
+  {
+    "id": "item_31",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "TAPE 5M",
+    "price": "100"
+  },
+  {
+    "id": "item_32",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "TAPE 7.5M",
+    "price": "250"
+  },
+  {
+    "id": "item_33",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "DHAGO BIG",
+    "price": "100"
+  },
+  {
+    "id": "item_34",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "DHAGO SMALL",
+    "price": "15"
+  },
+  {
+    "id": "item_35",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "CUTTING BALDE 4 INCH DHANDI KATNI RATO",
+    "price": "20"
+  },
+  {
+    "id": "item_36",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "CUTTING BALDE 14 INCH DHANDI KATNI BLACK",
+    "price": "500"
+  },
+  {
+    "id": "item_37",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "CUTTING BALDE 4 INCH PLY",
+    "price": "500"
+  },
+  {
+    "id": "item_38",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "CUTTING BALDE 7 INCH PLY",
+    "price": "1300"
+  },
+  {
+    "id": "item_39",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "GRINDER BLADE 4 INCH DANDI (80-120)",
+    "price": "120"
+  },
+  {
+    "id": "item_40",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "GRINDER BLADE 4 INCH DANDI BAKLO",
+    "price": "160"
+  },
+  {
+    "id": "item_41",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "PRIMER PER LTR",
+    "price": "400"
+  },
+  {
+    "id": "item_42",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "PICK",
+    "price": "500"
+  },
+  {
+    "id": "item_43",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "VID",
+    "price": "100"
+  },
+  {
+    "id": "item_44",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "PIPE KILA PER PIC",
+    "price": "10"
+  },
+  {
+    "id": "item_45",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "JAVEL (ALL TYPE AND SIZE)",
+    "price": "100"
+  },
+  {
+    "id": "item_46",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "DHALAN KILA PER PKT",
+    "price": "300"
+  },
+  {
+    "id": "item_47",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "PIPE KILA RED RUST PER KG",
+    "price": "300"
+  },
+  {
+    "id": "item_48",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "WHITE PLASTIC PER KG",
+    "price": "500"
+  },
+  {
+    "id": "item_49",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "WATER PROOF (SUPER LATEX) PER LTR",
+    "price": "850"
+  },
+  {
+    "id": "item_50",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "JALI PER MTR (1, 2, 3, 4 NUMBER ALL)",
+    "price": "200"
+  },
+  {
+    "id": "item_51",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "PLAIN PATTA PER PIC (WITHOUT HANDLE)",
+    "price": "80"
+  },
+  {
+    "id": "item_52",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "PLAIN PATTA PER PIC (WITH HANDLE)",
+    "price": "100"
+  },
+  {
+    "id": "item_53",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "BLACK PLASTIC PER KG",
+    "price": "170"
+  },
+  {
+    "id": "item_54",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "NYLON DORI PER KG",
+    "price": "700"
+  },
+  {
+    "id": "item_55",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "NOLE PER PIC",
+    "price": "600"
+  },
+  {
+    "id": "item_56",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "HAKSA BLADE",
+    "price": "25"
+  },
+  {
+    "id": "item_57",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "HILL T BOLT 0.5 INCH PER PIC",
+    "price": "3"
+  },
+  {
+    "id": "item_58",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "HILL T BOLT 1 INCH PER PIC",
+    "price": "3.5"
+  },
+  {
+    "id": "item_59",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "HILL T BOLT 1.5 INCH PER PIC",
+    "price": "4.5"
+  },
+  {
+    "id": "item_60",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "HILL T BOLT 2 INCH PER PIC",
+    "price": "6"
+  },
+  {
+    "id": "item_61",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "HILL T BOLT 3 INCH PER PIC",
+    "price": "10"
+  },
+  {
+    "id": "item_62",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "HILL T BOLT 4 INCH PER PIC",
+    "price": "12"
+  },
+  {
+    "id": "item_63",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "GHERU RATO PER PKT",
+    "price": "150"
+  },
+  {
+    "id": "item_64",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "PANJA (ALL TYPE)",
+    "price": "100"
+  },
+  {
+    "id": "item_65",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "TAR BRUSH (YELLOW)",
+    "price": "180"
+  },
+  {
+    "id": "item_66",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "TAR BRUSH (NORMAL BLACK WHITE WOOD)",
+    "price": "100"
+  },
+  {
+    "id": "item_67",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "CHATA KILLA PER KG",
+    "price": "300"
+  },
+  {
+    "id": "item_68",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "WATER PIPE 0.5, 3/4, 1 INCH ALL SIZE PER KG",
+    "price": "250"
+  },
+  {
+    "id": "item_69",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "LEVEL PIPE PER MTR",
+    "price": "25"
+  },
+  {
+    "id": "item_70",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "WHOLE PASS (ALL SIZE) PER PIC",
+    "price": "15"
+  },
+  {
+    "id": "item_71",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "HAKSA FRAME PER PIC",
+    "price": "250"
+  },
+  {
+    "id": "item_72",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "KARAUTI BAS KATNI",
+    "price": "300"
+  },
+  {
+    "id": "item_73",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "KARAI",
+    "price": "300"
+  },
+  {
+    "id": "item_74",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "SEAL TAPE (BIG)",
+    "price": "50"
+  },
+  {
+    "id": "item_75",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "SEAL TAPE (SMALL)",
+    "price": "30"
+  },
+  {
+    "id": "item_76",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "CLAMP 12 INCH",
+    "price": "150"
+  },
+  {
+    "id": "item_77",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "CLAMP 14 INCH",
+    "price": "180"
+  },
+  {
+    "id": "item_78",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "WATER PROOF 1LTR",
+    "price": "350"
+  },
+  {
+    "id": "item_79",
+    "topic": "JASTA",
+    "name": "6 FT JASTA NON COLOUR 26 GAGE (12PIC)",
+    "price": "7000"
+  },
+  {
+    "id": "item_80",
+    "topic": "JASTA",
+    "name": "7 FT JASTA NON COLOUR 26 GAGE (10PIC)",
+    "price": "7000"
+  },
+  {
+    "id": "item_81",
+    "topic": "JASTA",
+    "name": "8 FT JASTA NON COLOUR 26 GAGE (9PIC)",
+    "price": "7000"
+  },
+  {
+    "id": "item_82",
+    "topic": "JASTA",
+    "name": "9 FT JASTA NON COLOUR 26 GAGE (8PIC)",
+    "price": "7000"
+  },
+  {
+    "id": "item_83",
+    "topic": "JASTA",
+    "name": "10 FT JASTA NON COLOUR 26 GAGE (7PIC)",
+    "price": "7000"
+  },
+  {
+    "id": "item_84",
+    "topic": "JASTA",
+    "name": "12 FT JASTA NON COLOUR 26 GAGE (6PIC)",
+    "price": "7000"
+  },
+  {
+    "id": "item_85",
+    "topic": "JASTA",
+    "name": "6 FT JASTA COLOUR (RED OR BLUE) 35MM (12PIC)",
+    "price": "12000"
+  },
+  {
+    "id": "item_86",
+    "topic": "JASTA",
+    "name": "7 FT JASTA COLOUR (RED OR BLUE) 35MM (10PIC)",
+    "price": "12000"
+  },
+  {
+    "id": "item_87",
+    "topic": "JASTA",
+    "name": "8 FT JASTA COLOUR (RED OR BLUE) 35MM (9PIC)",
+    "price": "12000"
+  },
+  {
+    "id": "item_88",
+    "topic": "JASTA",
+    "name": "9 FT JASTA COLOUR (RED OR BLUE) 35MM (8PIC)",
+    "price": "12000"
+  },
+  {
+    "id": "item_89",
+    "topic": "JASTA",
+    "name": "10 FT JASTA COLOUR (RED OR BLUE) 35MM (7PIC)",
+    "price": "12000"
+  },
+  {
+    "id": "item_90",
+    "topic": "JASTA",
+    "name": "12 FT JASTA COLOUR (RED OR BLUE) 35MM (6PIC)",
+    "price": "12000"
+  },
+  {
+    "id": "item_91",
+    "topic": "JASTA",
+    "name": "6 FT JASTA NON COLOUR 24 GAGE (12PIC)",
+    "price": "10500"
+  },
+  {
+    "id": "item_92",
+    "topic": "JASTA",
+    "name": "7 FT JASTA NON COLOUR 24 GAGE (10PIC)",
+    "price": "10500"
+  },
+  {
+    "id": "item_93",
+    "topic": "JASTA",
+    "name": "8 FT JASTA NON COLOUR 24 GAGE (9PIC)",
+    "price": "10500"
+  },
+  {
+    "id": "item_94",
+    "topic": "JASTA",
+    "name": "9 FT JASTA NON COLOUR 24 GAGE (8PIC)",
+    "price": "10500"
+  },
+  {
+    "id": "item_95",
+    "topic": "JASTA",
+    "name": "10 FT JASTA NON COLOUR 24 GAGE (7PIC)",
+    "price": "10500"
+  },
+  {
+    "id": "item_96",
+    "topic": "JASTA",
+    "name": "12 FT JASTA NON COLOUR 24 GAGE (6PIC)",
+    "price": "10500"
+  },
+  {
+    "id": "item_97",
+    "topic": "JASTA",
+    "name": "FIBER JASTA PER FT (6 7 8 9 10 12 FT)",
+    "price": "210"
+  },
+  {
+    "id": "item_98",
+    "topic": "JASTA",
+    "name": "LOAD UNLOAD PER BUNDLE JASTA",
+    "price": "25"
+  },
+  {
+    "id": "item_99",
+    "topic": "PLAIN SHEET",
+    "name": "4 FT BREATH PER FT (NON COLOUR)",
+    "price": "135"
+  },
+  {
+    "id": "item_100",
+    "topic": "PLAIN SHEET",
+    "name": "3 FT BREATH PER FT (NON COLOUR)",
+    "price": "100"
+  },
+  {
+    "id": "item_101",
+    "topic": "PLAIN SHEET",
+    "name": "4 FT BREATH PER FT (RED OR BLUE COLOUR)",
+    "price": "265"
+  },
+  {
+    "id": "item_102",
+    "topic": "PLAIN SHEET",
+    "name": "3 FT BREATH PER FT (RED OR BLUE COLOUR)",
+    "price": "200"
+  },
+  {
+    "id": "item_103",
+    "topic": "TANK",
+    "name": "200 LTR TANK BLUE OIL TANK",
+    "price": "2000"
+  },
+  {
+    "id": "item_104",
+    "topic": "TANK",
+    "name": "HILLTOP PER LTR (BLACK)",
+    "price": "12"
+  },
+  {
+    "id": "item_105",
+    "topic": "TANK",
+    "name": "HILLTOP PER LTR (COLOUR)",
+    "price": "12.5"
+  },
+  {
+    "id": "item_106",
+    "topic": "TANK",
+    "name": "HILLTAKE EXTRA HEAVY (BLACK)",
+    "price": "14"
+  },
+  {
+    "id": "item_107",
+    "topic": "TANK",
+    "name": "HILLTAKE EXTRA HEAVY (COLOUR)",
+    "price": "14.5"
+  },
+  {
+    "id": "item_108",
+    "topic": "TANK",
+    "name": "HILLTAKE STEAL TANK (1000LTR)",
+    "price": "27000"
+  },
+  {
+    "id": "item_109",
+    "topic": "TANK",
+    "name": "TANK NIPPLE 1 INCH",
+    "price": "550"
+  },
+  {
+    "id": "item_110",
+    "topic": "TANK",
+    "name": "TANK NIPPLE 3/4 INCH",
+    "price": "300"
+  },
+  {
+    "id": "item_111",
+    "topic": "TANK",
+    "name": "TANK NIPPLE 0.5 INCH",
+    "price": "250"
+  },
+  {
+    "id": "item_112",
+    "topic": "TANK",
+    "name": "LOAD UNLOAD OF TANK",
+    "price": "FREE"
+  },
+  {
+    "id": "item_113",
+    "topic": "SQ PIPE",
+    "name": "SQ PIPE 3/4 INCH",
+    "price": "800"
+  },
+  {
+    "id": "item_114",
+    "topic": "SQ PIPE",
+    "name": "SQ PIPE 1 INCH",
+    "price": "1050"
+  },
+  {
+    "id": "item_115",
+    "topic": "SQ PIPE",
+    "name": "SQ PIPE 1.5 INCH",
+    "price": "1400"
+  },
+  {
+    "id": "item_116",
+    "topic": "SQ PIPE",
+    "name": "SQ PIPE 2 INCH",
+    "price": "1890"
+  },
+  {
+    "id": "item_117",
+    "topic": "SQ PIPE",
+    "name": "SQ PIPE 3 INCH",
+    "price": "2920"
+  },
+  {
+    "id": "item_118",
+    "topic": "SQ PIPE",
+    "name": "SQ PIPE 4 INCH",
+    "price": "4100"
+  },
+  {
+    "id": "item_119",
+    "topic": "SQ PIPE",
+    "name": "PATTI 1 INCH ONLY IN STOCK PER PIC",
+    "price": "750"
+  },
+  {
+    "id": "item_120",
+    "topic": "SQ PIPE",
+    "name": "LOAD AND UNLOAD",
+    "price": "FREE"
+  },
+  {
+    "id": "item_121",
+    "topic": "TILE",
+    "name": "TILE 12 X 18 PER SQ FT",
+    "price": "95"
+  },
+  {
+    "id": "item_122",
+    "topic": "TILE",
+    "name": "TILE 16 X 16 PER SQ FT",
+    "price": "110"
+  },
+  {
+    "id": "item_123",
+    "topic": "TILE",
+    "name": "TILE 24 X 24 PER SQ FT",
+    "price": "130"
+  },
+  {
+    "id": "item_124",
+    "topic": "TILE",
+    "name": "TILE 24 X 28 PER SQ FT",
+    "price": "175"
+  },
+  {
+    "id": "item_125",
+    "topic": "TILE",
+    "name": "TILE 12 X 12 PER SQ FT",
+    "price": "110"
+  },
+  {
+    "id": "item_126",
+    "topic": "TILE",
+    "name": "TILE PUTTING PER KG",
+    "price": "150"
+  },
+  {
+    "id": "item_127",
+    "topic": "TILE",
+    "name": "TILE PUTTING PER HALF KG",
+    "price": "100"
+  },
+  {
+    "id": "item_128",
+    "topic": "TILE",
+    "name": "TILE CUTTING BALDE 4 INCH",
+    "price": "350"
+  },
+  {
+    "id": "item_129",
+    "topic": "TILE",
+    "name": "GOD TILE 8 X 12 PER PIC (PLAIN)",
+    "price": "200"
+  },
+  {
+    "id": "item_130",
+    "topic": "TILE",
+    "name": "GOD TILE 12 X 18 PER PIC (PLAIN)",
+    "price": "400"
+  },
+  {
+    "id": "item_131",
+    "topic": "TILE",
+    "name": "GOD TILE 8 X 6 PER PIC (PLAIN)",
+    "price": "150"
+  },
+  {
+    "id": "item_132",
+    "topic": "TILE",
+    "name": "GOD TILE 12 X 18 PER PIC (HIGHLIGHT)",
+    "price": "500"
+  },
+  {
+    "id": "item_133",
+    "topic": "TILE",
+    "name": "GOD TILE 8 X 12 PER PIC (HIGHLIGHT)",
+    "price": "300"
+  },
+  {
+    "id": "item_134",
+    "topic": "TILE",
+    "name": "GOD TILE 8 X 6 PER PIC (HIGHLIGHT)",
+    "price": "250"
+  },
+  {
+    "id": "item_135",
+    "topic": "TILE",
+    "name": "TILE LOAD AND UNLOAD PER PKT",
+    "price": "3"
+  },
+  {
+    "id": "item_136",
+    "topic": "ACC BLOCK",
+    "name": "ACC BLOCK 4 INCH",
+    "price": "150"
+  },
+  {
+    "id": "item_137",
+    "topic": "ACC BLOCK",
+    "name": "ACC BLOCK 6 INCH",
+    "price": "190"
+  },
+  {
+    "id": "item_138",
+    "topic": "ACC BLOCK",
+    "name": "ACC BLOCK 8 INCH",
+    "price": "260"
+  },
+  {
+    "id": "item_139",
+    "topic": "ACC BLOCK",
+    "name": "LOAD AND UNLOAD OF ACC BLOCK PER PIC",
+    "price": "3"
+  },
+  {
+    "id": "item_140",
+    "topic": "ITTA",
+    "name": "ITTA 1 NUMBER PER PIC",
+    "price": "20"
+  },
+  {
+    "id": "item_141",
+    "topic": "ITTA",
+    "name": "ITTA 2 NUMBER PER PIC",
+    "price": "17"
+  },
+  {
+    "id": "item_142",
+    "topic": "ITTA",
+    "name": "LOAD UNLOAD OF ITTA IF PER TIP",
+    "price": "FREE"
+  },
+  {
+    "id": "item_143",
+    "topic": "ITTA",
+    "name": "LOAD UNLOAD PER PIC BAHIRA GADI",
+    "price": "0.5"
+  },
+  {
+    "id": "item_144",
+    "topic": "ITTA",
+    "name": "CHANG LAKO PER TIP",
+    "price": "500"
+  },
+  {
+    "id": "item_145",
+    "topic": "ITTA",
+    "name": "CHANG PER PIC BAHIRA GADI",
+    "price": "0.5"
+  },
+  {
+    "id": "item_146",
+    "topic": "BATTI KO PIPE (ELECTRIC)",
+    "name": "16 MM ELECTRIC PIPE PER KG",
+    "price": "170"
+  },
+  {
+    "id": "item_147",
+    "topic": "BATTI KO PIPE (ELECTRIC)",
+    "name": "20 MM ELECTRIC PIPE PER KG (BATTI KO PIPE KALO)",
+    "price": "170"
+  },
+  {
+    "id": "item_148",
+    "topic": "BATTI KO PIPE (ELECTRIC)",
+    "name": "METAL BOX 3 X 3 PER PIC",
+    "price": "90"
+  },
+  {
+    "id": "item_149",
+    "topic": "BATTI KO PIPE (ELECTRIC)",
+    "name": "METAL BOX 3 X 4 PER PIC",
+    "price": "120"
+  },
+  {
+    "id": "item_150",
+    "topic": "BATTI KO PIPE (ELECTRIC)",
+    "name": "METAL BOX 3 X 6 PER PIC",
+    "price": "200"
+  },
+  {
+    "id": "item_151",
+    "topic": "BATTI KO PIPE (ELECTRIC)",
+    "name": "CIRCULAR BOX PER PIC",
+    "price": "15"
+  },
+  {
+    "id": "item_152",
+    "topic": "BATTI KO PIPE (ELECTRIC)",
+    "name": "CIRCULAR BOX PER PKT (12 PIC)",
+    "price": "150"
+  },
+  {
+    "id": "item_153",
+    "topic": "GADHA",
+    "name": "GADHA HEAVY PER PIC",
+    "price": "5000"
+  },
+  {
+    "id": "item_154",
+    "topic": "GADHA",
+    "name": "GADHA LIGHT PER PIC",
+    "price": "4000"
+  },
+  {
+    "id": "item_155",
+    "topic": "GADHA",
+    "name": "GADHA TYER SET (TUBE) SET",
+    "price": "1600"
+  },
+  {
+    "id": "item_156",
+    "topic": "GADHA",
+    "name": "GADHA TYER TUBE",
+    "price": "400"
+  },
+  {
+    "id": "item_157",
+    "topic": "GADHA",
+    "name": "GADHA BEARING PER PIC",
+    "price": "200"
+  },
+  {
+    "id": "item_158",
+    "topic": "GADHA",
+    "name": "GADHA TUBELESS TYER HEAVY",
+    "price": "2600"
+  },
+  {
+    "id": "item_159",
+    "topic": "GADHA",
+    "name": "GADHA TUBELESS TYER LIGHT",
+    "price": "2400"
+  },
+  {
+    "id": "item_160",
+    "topic": "MACHINE",
+    "name": "WATER PUMP (AUTOMATIC)",
+    "price": "9500"
+  },
+  {
+    "id": "item_161",
+    "topic": "MACHINE",
+    "name": "WATER PUMP (NON AUTOMATIC)",
+    "price": "8500"
+  },
+  {
+    "id": "item_162",
+    "topic": "MACHINE",
+    "name": "GRINDER MACHINE 4 INCH (GREEN AND BLACK MIX COLOUR)",
+    "price": "3500"
+  },
+  {
+    "id": "item_163",
+    "topic": "MACHINE",
+    "name": "GRINDER MACHINE 4 INCH (YELLOW COLOUR)",
+    "price": "4500"
+  },
+  {
+    "id": "item_164",
+    "topic": "PPR PIPE (GREEN COLOUR)",
+    "name": "PPR PIPE 0.5 INCH PER MTR",
+    "price": "125"
+  },
+  {
+    "id": "item_165",
+    "topic": "PPR PIPE (GREEN COLOUR)",
+    "name": "PPR PIPE 3/4 INCH PER MTR",
+    "price": "160"
+  },
+  {
+    "id": "item_166",
+    "topic": "PPR PIPE (GREEN COLOUR)",
+    "name": "PPR PIPE 1 INCH PER MTR",
+    "price": "260"
+  },
+  {
+    "id": "item_167",
+    "topic": "GI",
+    "name": "GI 0.5 INCH SOKET",
+    "price": "50"
+  },
+  {
+    "id": "item_168",
+    "topic": "GI",
+    "name": "GI 0.5 L-BOW",
+    "price": "115"
+  },
+  {
+    "id": "item_169",
+    "topic": "GI",
+    "name": "GI 0.5 TEE",
+    "price": "140"
+  },
+  {
+    "id": "item_170",
+    "topic": "GI",
+    "name": "GI 0.5 UNION",
+    "price": "230"
+  },
+  {
+    "id": "item_171",
+    "topic": "GI",
+    "name": "GI 3/4 SOKET",
+    "price": "80"
+  },
+  {
+    "id": "item_172",
+    "topic": "GI",
+    "name": "GI 3/4 L-BOW",
+    "price": "150"
+  },
+  {
+    "id": "item_173",
+    "topic": "GI",
+    "name": "GI 3/4 UNION",
+    "price": "350"
+  },
+  {
+    "id": "item_174",
+    "topic": "GI",
+    "name": "GI 3/4 TEE",
+    "price": "180"
+  },
+  {
+    "id": "item_175",
+    "topic": "GI",
+    "name": "GI 1 INCH SOKET",
+    "price": "110"
+  },
+  {
+    "id": "item_176",
+    "topic": "GI",
+    "name": "GI 1 INCH TEE",
+    "price": "230"
+  },
+  {
+    "id": "item_177",
+    "topic": "GI",
+    "name": "GI 1 INCH L-BOW",
+    "price": "180"
+  },
+  {
+    "id": "item_178",
+    "topic": "GI",
+    "name": "GI 1 INCH UNION",
+    "price": "480"
+  },
+  {
+    "id": "item_179",
+    "topic": "GI",
+    "name": "GI NIPPLE PER INCH",
+    "price": "15"
+  },
+  {
+    "id": "item_180",
+    "topic": "HDPE PIPE (BLACK COLOUR)",
+    "name": "HDPE PIPE 16 MM PER MTR",
+    "price": "45"
+  },
+  {
+    "id": "item_181",
+    "topic": "HDPE PIPE (BLACK COLOUR)",
+    "name": "HDPE PIPE 20 MM PER MTR",
+    "price": "65"
+  },
+  {
+    "id": "item_182",
+    "topic": "HDPE PIPE (BLACK COLOUR)",
+    "name": "HDPE PIPE 25 MM PER MTR",
+    "price": "95"
+  },
+  {
+    "id": "item_183",
+    "topic": "HDPE PIPE (BLACK COLOUR)",
+    "name": "HDPE PIPE 32 MM PER MTR",
+    "price": "110"
+  },
+  {
+    "id": "item_184",
+    "topic": "BLACK PIPE",
+    "name": "BLACK PIPE 1.5 INCH (LIGHT)",
+    "price": "450"
+  },
+  {
+    "id": "item_185",
+    "topic": "BLACK PIPE",
+    "name": "BLACK PIPE 1.5 INCH SOKET",
+    "price": "20"
+  },
+  {
+    "id": "item_186",
+    "topic": "BLACK PIPE",
+    "name": "BLACK PIPE 1.5 INCH L-BOW",
+    "price": "40"
+  },
+  {
+    "id": "item_187",
+    "topic": "BLACK PIPE",
+    "name": "BLACK PIPE 1.5 INCH TEE",
+    "price": "60"
+  },
+  {
+    "id": "item_188",
+    "topic": "BLACK PIPE",
+    "name": "BLACK PIPE 1.5 INCH 45 L-BOW",
+    "price": "60"
+  },
+  {
+    "id": "item_189",
+    "topic": "BLACK PIPE",
+    "name": "BLACK PIPE 2 INCH (LIGHT)",
+    "price": "600"
+  },
+  {
+    "id": "item_190",
+    "topic": "BLACK PIPE",
+    "name": "BLACK PIPE 2 INCH TEE",
+    "price": "90"
+  },
+  {
+    "id": "item_191",
+    "topic": "BLACK PIPE",
+    "name": "BLACK PIPE 2 INCH L-BOW",
+    "price": "70"
+  },
+  {
+    "id": "item_192",
+    "topic": "BLACK PIPE",
+    "name": "BLACK PIPE 2 INCH SOKET",
+    "price": "40"
+  },
+  {
+    "id": "item_193",
+    "topic": "BLACK PIPE",
+    "name": "BLACK PIPE 2 INCH 45 L-BOW",
+    "price": "70"
+  },
+  {
+    "id": "item_194",
+    "topic": "BLACK PIPE",
+    "name": "BLACK PIPE 3 INCH",
+    "price": "1000"
+  },
+  {
+    "id": "item_195",
+    "topic": "BLACK PIPE",
+    "name": "BLACK PIPE 3 INCH SOKET",
+    "price": "50"
+  },
+  {
+    "id": "item_196",
+    "topic": "BLACK PIPE",
+    "name": "BLACK PIPE 3 INCH L-BOW",
+    "price": "100"
+  },
+  {
+    "id": "item_197",
+    "topic": "BLACK PIPE",
+    "name": "BLACK PIPE 3 INCH TEE",
+    "price": "120"
+  },
+  {
+    "id": "item_198",
+    "topic": "BLACK PIPE",
+    "name": "BLACK PIPE 3 INCH 45 L-BOW",
+    "price": "100"
+  },
+  {
+    "id": "item_199",
+    "topic": "BLACK PIPE",
+    "name": "BLACK PIPE 4 INCH (LIGHT)",
+    "price": "1400"
+  },
+  {
+    "id": "item_200",
+    "topic": "BLACK PIPE",
+    "name": "BLACK PIPE 4 INCH SOKET",
+    "price": "60"
+  },
+  {
+    "id": "item_201",
+    "topic": "BLACK PIPE",
+    "name": "BLACK PIPE 4 INCH L-BOW",
+    "price": "160"
+  },
+  {
+    "id": "item_202",
+    "topic": "BLACK PIPE",
+    "name": "BLACK PIPE 4 INCH TEE",
+    "price": "180"
+  },
+  {
+    "id": "item_203",
+    "topic": "BLACK PIPE",
+    "name": "BLACK PIPE 4 INCH 45 L-BOW",
+    "price": "160"
+  },
+  {
+    "id": "item_204",
+    "topic": "BLACK PIPE",
+    "name": "BLACK PIPE 6 INCH (HEAVY) PER KG",
+    "price": "160"
+  },
+  {
+    "id": "item_205",
+    "topic": "BLACK PIPE",
+    "name": "BLACK PIPE 6 INCH SOKET",
+    "price": "150"
+  },
+  {
+    "id": "item_206",
+    "topic": "BLACK PIPE",
+    "name": "BLACK PIPE 6 INCH L-BOW",
+    "price": "250"
+  },
+  {
+    "id": "item_207",
+    "topic": "BLACK PIPE",
+    "name": "BLACK PIPE 6 INCH TEE",
+    "price": "350"
+  },
+  {
+    "id": "item_208",
+    "topic": "BLACK PIPE",
+    "name": "BLACK PIPE 6 INCH 45 L-BOW",
+    "price": "250"
+  },
+  {
+    "id": "item_209",
+    "topic": "BLACK PIPE",
+    "name": "BLACK PIPE 8 INCH (HEAVY) PER KG",
+    "price": "190"
+  },
+  {
+    "id": "item_210",
+    "topic": "BLACK PIPE",
+    "name": "BLACK PIPE 8 INCH SOKET",
+    "price": "300"
+  },
+  {
+    "id": "item_211",
+    "topic": "BLACK PIPE",
+    "name": "BLACK PIPE 8 INCH L-BOW",
+    "price": "600"
+  },
+  {
+    "id": "item_212",
+    "topic": "BLACK PIPE",
+    "name": "BLACK PIPE 8 INCH TEE",
+    "price": "850"
+  },
+  {
+    "id": "item_213",
+    "topic": "BLACK PIPE",
+    "name": "BLACK PIPE 8 INCH 45 L-BOW",
+    "price": "600"
+  },
+  {
+    "id": "item_214",
+    "topic": "BLACK PIPE",
+    "name": "BLACK PIPE 12 INCH (HEAVY) PER KG",
+    "price": "250"
+  },
+  {
+    "id": "item_215",
+    "topic": "BLACK PIPE",
+    "name": "BLACK PIPE 12 INCH SOKET",
+    "price": "2500"
+  },
+  {
+    "id": "item_216",
+    "topic": "BLACK PIPE",
+    "name": "BLACK PIPE 12 INCH L-BOW",
+    "price": "4500"
+  },
+  {
+    "id": "item_217",
+    "topic": "BLACK PIPE",
+    "name": "BLACK PIPE 12 INCH TEE (OUT OF STOCK)",
+    "price": "6000"
+  },
+  {
+    "id": "item_218",
+    "topic": "BLACK PIPE",
+    "name": "BLACK PIPE 12 INCH 45 L-BOW (OUT OF STOCK)",
+    "price": "4500"
+  },
+  {
+    "id": "item_219",
+    "topic": "BLACK PIPE",
+    "name": "BLACK PIPE LOAD AND UNLOAD",
+    "price": "5"
+  },
+  {
+    "id": "item_220",
+    "topic": "BAS",
+    "name": "BAS PER PIC",
+    "price": "260"
+  },
+  {
+    "id": "item_221",
+    "topic": "GRANITE",
+    "name": "BLACK GRANITE PER SQ FT",
+    "price": "300"
+  },
+  {
+    "id": "item_222",
+    "topic": "GRANITE",
+    "name": "WHITE GRANITE PER SQ FT",
+    "price": "210"
+  },
+  {
+    "id": "item_223",
+    "topic": "GRANITE",
+    "name": "RED GRANITE PER SQ FT",
+    "price": "280"
+  },
+  {
+    "id": "item_224",
+    "topic": "GRANITE",
+    "name": "PINK GRANITE PER SQ FT",
+    "price": "250"
+  },
+  {
+    "id": "item_225",
+    "topic": "GRANITE",
+    "name": "GREEN GRANITE",
+    "price": "190"
+  },
+  {
+    "id": "item_226",
+    "topic": "GRANITE",
+    "name": "GRANITE CUTTING BALDE 6 INCH",
+    "price": "300"
+  },
+  {
+    "id": "item_227",
+    "topic": "GRANITE",
+    "name": "GRANITE MODELLING BALDE 6 INCH",
+    "price": "300"
+  },
+  {
+    "id": "item_228",
+    "topic": "ANGLE",
+    "name": "ANGLE 1 INCH (LIGHT)",
+    "price": "1200"
+  },
+  {
+    "id": "item_229",
+    "topic": "ANGLE",
+    "name": "ANGLE 1.5 INCH (LIGHT)",
+    "price": "1450"
+  },
+  {
+    "id": "item_230",
+    "topic": "ANGLE",
+    "name": "ANGLE 2 INCH (LIGHT)",
+    "price": "1890"
+  },
+  {
+    "id": "item_231",
+    "topic": "ANGLE",
+    "name": "ANGLE 1 INCH (HEAVY)",
+    "price": "1300"
+  },
+  {
+    "id": "item_232",
+    "topic": "ANGLE",
+    "name": "ANGLE 1.5 INCH (HEAVY)",
+    "price": "1800"
+  },
+  {
+    "id": "item_233",
+    "topic": "ANGLE",
+    "name": "ANGLE 2 INCH (HEAVY)",
+    "price": "2600"
+  },
+  {
+    "id": "item_234",
+    "topic": "ANGLE",
+    "name": "LOAD UNLOAD ANGLE",
+    "price": "FREE"
+  },
+  {
+    "id": "item_235",
+    "topic": "COMPOUND JALI",
+    "name": "COMPOUND JALI PER SQ FT (HEIGHT 3, 4, 5, 6 FT) 1 ROLL = 10 MTR OR 32.8 FT",
+    "price": "45"
+  },
+  {
+    "id": "item_236",
+    "topic": "COMPOUND JALI",
+    "name": "LOAD UNLOAD COMPOUND JALI",
+    "price": "FREE"
+  },
+  {
+    "id": "item_237",
+    "topic": "JALI",
+    "name": "CROSS JALI PER MTR (1 ROLL - 30 MTR APPROX) PER MTR",
+    "price": "350"
+  },
+  {
+    "id": "item_238",
+    "topic": "JALI",
+    "name": "PLUS JALI PER MTR 3 FT",
+    "price": "300"
+  },
+  {
+    "id": "item_239",
+    "topic": "JALI",
+    "name": "PLUS JALI PER MTR 4 FT",
+    "price": "400"
+  },
+  {
+    "id": "item_240",
+    "topic": "JALI",
+    "name": "PLUS JALI PER MTR 5 FT",
+    "price": "500"
+  },
+  {
+    "id": "item_241",
+    "topic": "JALI",
+    "name": "PLUS JALI PER MTR 6 FT",
+    "price": "600"
+  },
+  {
+    "id": "item_242",
+    "topic": "DHUNGA JALI OR CRATE JALI",
+    "name": "DHUNGA JALI 1 X 1.5 MTR PER PIC",
+    "price": "2800"
+  },
+  {
+    "id": "item_243",
+    "topic": "DHUNGA JALI OR CRATE JALI",
+    "name": "DHUNGA JALI 1 X 2 MTR PER PIC",
+    "price": "3600"
+  },
+  {
+    "id": "item_244",
+    "topic": "DHUNGA JALI OR CRATE JALI",
+    "name": "DHUNGA JALI 1 X 3 MTR PER PIC",
+    "price": "4400"
+  },
+  {
+    "id": "item_245",
+    "topic": "DHUNGA JALI OR CRATE JALI",
+    "name": "LOAD UNLOAD DHUNGA JALI PER PIC",
+    "price": "50"
+  },
+  {
+    "id": "item_246",
+    "topic": "TOILET PAN",
+    "name": "TOILET PAN LOCAL SET",
+    "price": "1500"
+  },
+  {
+    "id": "item_247",
+    "topic": "TOILET PAN",
+    "name": "TOILET PAN SONIC SET",
+    "price": "2400"
+  },
+  {
+    "id": "item_248",
+    "topic": "TOILET PAN",
+    "name": "SYPEN PER PIC SONIC SEPARATE IF",
+    "price": "800"
+  },
+  {
+    "id": "item_249",
+    "topic": "TOILET PAN",
+    "name": "SYPEN PER PIC LOCAL SEPARATE IF",
+    "price": "500"
+  },
+  {
+    "id": "item_1792682825179_11",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "SHAVEL",
+    "price": "500"
+  },
+  {
+    "id": "item_1792686769230_841",
+    "topic": "GRANITE",
+    "name": "LOAD UNLOAD GRANITE PER PIC",
+    "price": "100"
+  },
+  {
+    "id": "item_1792686796975_806",
+    "topic": "BAS",
+    "name": "LOAD UNLOAD BAS PER PIC",
+    "price": "5"
+  },
+  {
+    "id": "item_1792730340160_535",
+    "topic": "TRIPAL",
+    "name": "TRIPAL PER SQ FT (WHITE)",
+    "price": "4"
+  },
+  {
+    "id": "item_1792730618196_30",
+    "topic": "TRIPAL",
+    "name": "TRIPAL (RED) PER SQ FT",
+    "price": "8"
+  },
+  {
+    "id": "item_1792730752866_596",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "WELDING ROD (PER KG=200) AND PER PKT 1000",
+    "price": "1000"
+  },
+  {
+    "id": "item_1792730772085_255",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "STEAL WELDING ROD PER PKT",
+    "price": "1700"
+  },
+  {
+    "id": "item_1792730843348_416",
+    "topic": "TMT ROD",
+    "name": "DANDI COVER BLOCK(20MM) SANO (400 IN 1 BAG)",
+    "price": "4.5"
+  },
+  {
+    "id": "item_1792730867386_484",
+    "topic": "TMT ROD",
+    "name": "DANDI COVER BLOCK (BIG 30MM) 200 PIC IN 1 BAG",
+    "price": "7"
+  },
+  {
+    "id": "item_1792730906034_446",
+    "topic": "HUMMER",
+    "name": "HUMMER 1KG",
+    "price": "350"
+  },
+  {
+    "id": "item_1792730920534_508",
+    "topic": "HUMMER",
+    "name": "HUMMER 2 KG",
+    "price": "600"
+  },
+  {
+    "id": "item_1792730933640_275",
+    "topic": "HUMMER",
+    "name": "HUMMER 5KG",
+    "price": "1400"
+  },
+  {
+    "id": "item_1792730945269_886",
+    "topic": "HUMMER",
+    "name": "HUMMER 7KG",
+    "price": "1900"
+  },
+  {
+    "id": "item_1792730974479_277",
+    "topic": "TANK COVER",
+    "name": "TANK COVER 12 X 12",
+    "price": "1700"
+  },
+  {
+    "id": "item_1792730997311_510",
+    "topic": "TANK COVER",
+    "name": "TANK COVER 18 X 18",
+    "price": "2800"
+  },
+  {
+    "id": "item_1792731019356_35",
+    "topic": "TANK COVER",
+    "name": "TANK COVER 24 X 24",
+    "price": "4800"
+  },
+  {
+    "id": "item_1792731036317_890",
+    "topic": "TANK COVER",
+    "name": "TANK COVER 27 X 27",
+    "price": "9000"
+  },
+  {
+    "id": "item_1792731056048_547",
+    "topic": "TANK COVER",
+    "name": "TANK COVER 28 X 28",
+    "price": "9500"
+  },
+  {
+    "id": "item_1792732167776_105",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "THUNCHEY",
+    "price": "400"
+  },
+  {
+    "id": "item_1792732927702_252",
+    "topic": "BLACK PIPE",
+    "name": "BLACK PIPE 3 4 INCH (HEAVY) PER KG",
+    "price": "160"
+  },
+  {
+    "id": "item_1792733066967_527",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "WATER PIPE SOKET (SMALL) PER PIC",
+    "price": "10"
+  },
+  {
+    "id": "item_1792733075924_940",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "WATER PIPE (BIG) PER PIC",
+    "price": "15"
+  },
+  {
+    "id": "item_1792733095828_568",
+    "topic": "PAINTING BRUSH",
+    "name": "PAINT BRUSH PER INCH",
+    "price": "60"
+  },
+  {
+    "id": "item_1792733116212_208",
+    "topic": "PAINTING BRUSH",
+    "name": "ROLLER BRUSH (SMALL)",
+    "price": "120"
+  },
+  {
+    "id": "item_1792733138870_949",
+    "topic": "PAINTING BRUSH",
+    "name": "ROLLER BRUSH(BIG)",
+    "price": "200"
+  },
+  {
+    "id": "item_1792733193822_178",
+    "topic": "BATTI KO PIPE (ELECTRIC)",
+    "name": "PLASTIC METAL BOX PER PIC",
+    "price": "110"
+  },
+  {
+    "id": "item_1792733450256_714",
+    "topic": "TILE",
+    "name": "TILE CLEANING LIQUID (GREEN COLOUR) 1LTR",
+    "price": "600"
+  },
+  {
+    "id": "item_1792733489028_577",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "PENCHIS (SMALL)",
+    "price": "300"
+  },
+  {
+    "id": "item_1792733508862_297",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "PENCHIS (BIG)",
+    "price": "500"
+  },
+  {
+    "id": "item_1792733933602_417",
+    "topic": "POLE",
+    "name": "POLE 3 FT",
+    "price": "350"
+  },
+  {
+    "id": "item_1792733940302_648",
+    "topic": "POLE",
+    "name": "POLE 5FT",
+    "price": "550"
+  },
+  {
+    "id": "item_1792733944670_889",
+    "topic": "POLE",
+    "name": "POLE 6FT",
+    "price": "650"
+  },
+  {
+    "id": "item_1792733961452_923",
+    "topic": "POLE",
+    "name": "POLE LOAD UNLOAD (3FT)",
+    "price": "15"
+  },
+  {
+    "id": "item_1792733977037_108",
+    "topic": "POLE",
+    "name": "POLE LOAD UNLOAD (BIG) GREATER THAN 3 FT",
+    "price": "20"
+  },
+  {
+    "id": "item_1792733991545_402",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "TOILET PUMPING PER PIC",
+    "price": "500"
+  },
+  {
+    "id": "item_1792734171325_153",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "AIR PUMP (SMALL)",
+    "price": "400"
+  },
+  {
+    "id": "item_1792734179149_891",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "AIR PUMP (BIG)",
+    "price": "2500"
+  },
+  {
+    "id": "item_1792734192493_856",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "EPOXY PER KG",
+    "price": "1300"
+  },
+  {
+    "id": "item_1792734206176_49",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "LEVEL SCALE (BIG)",
+    "price": "400"
+  },
+  {
+    "id": "item_1792734255479_576",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "WATER PIPE TIGHT (SMALL) 0.5 INCH",
+    "price": "25"
+  },
+  {
+    "id": "item_1792734267412_947",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "WATER PIPE TIGHT (BIG) 1 INCH",
+    "price": "40"
+  },
+  {
+    "id": "item_1792734554776_589",
+    "topic": "FITTING",
+    "name": "BASIN PIPE",
+    "price": "180"
+  },
+  {
+    "id": "item_1792734568156_902",
+    "topic": "FITTING",
+    "name": "BASIN PIPE WITH COUPLING",
+    "price": "250"
+  },
+  {
+    "id": "item_1792754886044_680",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "BENDING WIRE (DHALAN TAR)",
+    "price": "160"
+  },
+  {
+    "id": "item_1792816706914_308",
+    "topic": "PASAL KO SAMAN (GENERAL SHOP ITEMS)",
+    "name": "KHULLA CEMENT PER KG",
+    "price": "25"
+  },
+  {
+    "id": "item_1792894641906_812",
+    "topic": "BALWA, RODA, CHIPS, DHUNGA (SAND AND STONE)",
+    "name": "BALWA PER BORA",
+    "price": "200"
+  },
+  {
+    "id": "item_1792894647860_272",
+    "topic": "BALWA, RODA, CHIPS, DHUNGA (SAND AND STONE)",
+    "name": "RODA PER BORA",
+    "price": "200"
+  },
+  {
+    "id": "item_1792894670131_935",
+    "topic": "BALWA, RODA, CHIPS, DHUNGA (SAND AND STONE)",
+    "name": "CHIPS PER BORA",
+    "price": "200"
+  },
+  {
+    "id": "item_1792983171314_825",
+    "topic": "SQ PIPE",
+    "name": "SQ ROD 8 MM PER PIC",
+    "price": "480"
+  },
+  {
+    "id": "item_1792983183792_9",
+    "topic": "SQ PIPE",
+    "name": "SQ ROD 10 MM PER PIC",
+    "price": "550"
+  },
+  {
+    "id": "item_1793010681467_556",
+    "topic": "FITTING",
+    "name": "GEAR VALVE 1 INCH",
+    "price": "850"
+  },
+  {
+    "id": "item_1793012944831_253",
+    "topic": "TMT ROD",
+    "name": "LOAD UNLOAD OF TMT ROD PER BUNDLE",
+    "price": "35"
+  }
+]

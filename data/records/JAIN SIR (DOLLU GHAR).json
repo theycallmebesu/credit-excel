@@ -1,0 +1,97 @@
+{
+  "customerName": "JAIN SIR (DOLLU GHAR)",
+  "createdAt": "2026-10-26T02:21:21.795Z",
+  "updatedAt": "2026-10-28T03:42:35.600Z",
+  "entries": [
+    {
+      "id": "rec_1792981281795_ss2m7",
+      "date": "2083-07-09",
+      "itemName": "PPC CEMENT",
+      "unit": "bag",
+      "quantity": "30",
+      "driverName": "",
+      "vehicleNumber": "",
+      "remarks": "CREDIT",
+      "createdAt": "2026-10-26T02:21:21.795Z",
+      "updatedAt": "2026-10-26T02:37:42.532Z"
+    },
+    {
+      "id": "rec_1793082608296_8180z",
+      "date": "2083-07-10",
+      "itemName": "ANGLE 1 INCH (LIGHT)",
+      "unit": "pic",
+      "quantity": "5",
+      "driverName": "",
+      "vehicleNumber": "",
+      "remarks": "",
+      "createdAt": "2026-10-27T06:30:08.296Z",
+      "updatedAt": "2026-10-27T08:11:51.122Z"
+    },
+    {
+      "id": "rec_1793082608296_dp0oz",
+      "date": "2083-07-10",
+      "itemName": "ANGLE 1.5 INCH (LIGHT)",
+      "unit": "pic",
+      "quantity": "1",
+      "driverName": "",
+      "vehicleNumber": "",
+      "remarks": "",
+      "createdAt": "2026-10-27T06:30:08.296Z"
+    },
+    {
+      "id": "rec_1793082608296_col17",
+      "date": "2083-07-10",
+      "itemName": "PATTI 1 INCH ONLY IN STOCK PER PIC",
+      "unit": "pic",
+      "quantity": "5",
+      "driverName": "",
+      "vehicleNumber": "",
+      "remarks": "",
+      "createdAt": "2026-10-27T06:30:08.296Z"
+    },
+    {
+      "id": "rec_1793082608296_ahlg8",
+      "date": "2083-07-10",
+      "itemName": "3 INCH GOLO PIPE",
+      "unit": "pic",
+      "quantity": "1",
+      "driverName": "",
+      "vehicleNumber": "",
+      "remarks": "",
+      "createdAt": "2026-10-27T06:30:08.296Z"
+    },
+    {
+      "id": "rec_1793082608296_7f8bo",
+      "date": "2083-07-10",
+      "itemName": "WELDING ROD 2.5 MM",
+      "unit": "pkt",
+      "quantity": "1",
+      "driverName": "",
+      "vehicleNumber": "",
+      "remarks": "",
+      "createdAt": "2026-10-27T06:30:08.296Z"
+    },
+    {
+      "id": "rec_1793082608296_a48dg",
+      "date": "2083-07-10",
+      "itemName": "4 INCH CUTTING BLADE",
+      "unit": "pic",
+      "quantity": "20",
+      "driverName": "",
+      "vehicleNumber": "",
+      "remarks": "",
+      "createdAt": "2026-10-27T06:30:08.296Z"
+    },
+    {
+      "id": "rec_1793158955600_rv4c0",
+      "date": "2083-07-11",
+      "itemName": "BALWA (KHARO)",
+      "unit": "tip",
+      "quantity": "1",
+      "driverName": "rajendra",
+      "vehicleNumber": "8012",
+      "remarks": "sundol",
+      "createdAt": "2026-10-28T03:42:35.600Z"
+    }
+  ]
+}

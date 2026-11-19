@@ -1,0 +1,75 @@
+{
+  "customerName": "VIM SEN",
+  "createdAt": "2026-10-28T02:29:47.030Z",
+  "updatedAt": "2026-10-28T10:40:04.986Z",
+  "entries": [
+    {
+      "id": "rec_1793154587030_f7u9u",
+      "date": "2083-07-11",
+      "itemName": "RIDDI SIDDI CEMENT PPC",
+      "unit": "bag",
+      "quantity": "50",
+      "driverName": "",
+      "vehicleNumber": "",
+      "remarks": "",
+      "createdAt": "2026-10-28T02:29:47.030Z"
+    },
+    {
+      "id": "rec_1793154587030_38105",
+      "date": "2083-07-11",
+      "itemName": "DHALAN KILA PER PKT ( 2 INCH )",
+      "unit": "pkt",
+      "quantity": "2",
+      "driverName": "",
+      "vehicleNumber": "",
+      "remarks": "",
+      "createdAt": "2026-10-28T02:29:47.030Z"
+    },
+    {
+      "id": "rec_1793154587030_htg91",
+      "date": "2083-07-11",
+      "itemName": "1.5 INCH KILA",
+      "unit": "bag",
+      "quantity": "1 (bora)",
+      "driverName": "",
+      "vehicleNumber": "",
+      "remarks": "",
+      "createdAt": "2026-10-28T02:29:47.030Z"
+    },
+    {
+      "id": "rec_1793154587030_1qxp2",
+      "date": "2083-07-11",
+      "itemName": "3 INCH KILA",
+      "unit": "bag",
+      "quantity": "1 (bora)",
+      "driverName": "",
+      "vehicleNumber": "",
+      "remarks": "",
+      "createdAt": "2026-10-28T02:29:47.030Z"
+    },
+    {
+      "id": "rec_1793181319367_aw2ix",
+      "date": "2083-07-11",
+      "itemName": "TMT 16 MM (95.8 KG , 96.1 KG & 96.6 KG)",
+      "unit": "MUTHA",
+      "quantity": "3",
+      "driverName": "supari (AANI GHUMBA)",
+      "vehicleNumber": "3726",
+      "remarks": "288.5 KG",
+      "createdAt": "2026-10-28T09:55:19.367Z",
+      "updatedAt": "2026-10-28T10:40:04.986Z"
+    },
+    {
+      "id": "rec_1793181319367_mqyjw",
+      "date": "2083-07-11",
+      "itemName": "TMT 12 MM ( 107.7 KG & 116 KG )",
+      "unit": "MUTHA",
+      "quantity": "2",
+      "driverName": "supari(AANI GHUMBA)",
+      "vehicleNumber": "3726",
+      "remarks": "223.7 KG",
+      "createdAt": "2026-10-28T09:55:19.367Z",
+      "updatedAt": "2026-10-28T10:39:54.310Z"
+    }
+  ]
+}

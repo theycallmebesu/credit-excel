@@ -1,0 +1,17 @@
+{
+  "billNumber": 1,
+  "customerName": "DOLLU RESORT",
+  "date": "2083-07-07",
+  "dateDetails": null,
+  "driverName": "",
+  "vehicleNumber": "",
+  "items": [
+    {
+      "sn": 1,
+      "name": "PPC CEMENT",
+      "quantity": "25 bag"
+    }
+  ],
+  "createdAt": "2026-10-24T02:36:12.376Z",
+  "updatedAt": "2026-10-24T02:36:12.376Z"
+}

@@ -1,0 +1,41 @@
+{
+  "customerName": "BENZING GHUMBA",
+  "createdAt": "2026-10-27T06:33:01.187Z",
+  "updatedAt": "2026-10-27T11:22:20.840Z",
+  "entries": [
+    {
+      "id": "rec_1793082781187_hdvrh",
+      "date": "2083-07-10",
+      "itemName": "ITTA 1 NUMBER PER PIC",
+      "unit": "tip",
+      "quantity": "1",
+      "driverName": "",
+      "vehicleNumber": "",
+      "remarks": "",
+      "createdAt": "2026-10-27T06:33:01.187Z",
+      "updatedAt": "2026-10-27T11:22:20.840Z"
+    },
+    {
+      "id": "rec_1793082781187_h3zmj",
+      "date": "2083-07-10",
+      "itemName": "OPC SHIVAM CEMENT",
+      "unit": "bag",
+      "quantity": "30",
+      "driverName": "",
+      "vehicleNumber": "",
+      "remarks": "",
+      "createdAt": "2026-10-27T06:33:01.187Z"
+    },
+    {
+      "id": "rec_1793082781187_vq7ir",
+      "date": "2083-07-10",
+      "itemName": "DORI",
+      "unit": "pic",
+      "quantity": "100",
+      "driverName": "",
+      "vehicleNumber": "",
+      "remarks": "",
+      "createdAt": "2026-10-27T06:33:01.187Z"
+    }
+  ]
+}

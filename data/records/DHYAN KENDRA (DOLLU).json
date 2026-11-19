@@ -1,0 +1,30 @@
+{
+  "customerName": "DHYAN KENDRA (DOLLU)",
+  "createdAt": "2026-10-26T04:10:29.260Z",
+  "updatedAt": "2026-10-26T05:27:05.105Z",
+  "entries": [
+    {
+      "id": "rec_1792987829260_oa6b5",
+      "date": "2083-07-09",
+      "itemName": "RIDDI SIDDI CEMENT PPC",
+      "unit": "bag",
+      "quantity": "15",
+      "driverName": "PURNEY",
+      "vehicleNumber": "DI",
+      "remarks": "DADDY KAI SITE",
+      "createdAt": "2026-10-26T04:10:29.260Z",
+      "updatedAt": "2026-10-26T04:11:50.224Z"
+    },
+    {
+      "id": "rec_1792992425105_otdu3",
+      "date": "2083-07-09",
+      "itemName": "JAVEL (ALL TYPE AND SIZE)",
+      "unit": "pic",
+      "quantity": "2",
+      "driverName": "",
+      "vehicleNumber": "",
+      "remarks": "",
+      "createdAt": "2026-10-26T05:27:05.105Z"
+    }
+  ]
+}

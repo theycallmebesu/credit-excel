@@ -1,0 +1,87 @@
+{
+  "customerName": "DOLLU RESORT",
+  "createdAt": "2026-10-24T02:42:10.508Z",
+  "updatedAt": "2026-11-01T10:18:46.503Z",
+  "entries": [
+    {
+      "id": "rec_1792996277683_dddom",
+      "date": "2083-07-09",
+      "itemName": "BALWA",
+      "unit": "tip",
+      "quantity": "1",
+      "driverName": "RAJENDRA",
+      "vehicleNumber": "8012",
+      "remarks": "13000",
+      "createdAt": "2026-10-26T06:31:17.683Z"
+    },
+    {
+      "id": "rec_1792996277683_aowgg",
+      "date": "2083-07-09",
+      "itemName": "THUNCHEY",
+      "unit": "pic",
+      "quantity": "3",
+      "driverName": "RAJENDRA",
+      "vehicleNumber": "8012",
+      "remarks": "1200",
+      "createdAt": "2026-10-26T06:31:17.683Z"
+    },
+    {
+      "id": "rec_1792996277683_h1dq2",
+      "date": "2083-07-09",
+      "itemName": "ADC CEMENT PER BAG",
+      "unit": "BAG",
+      "quantity": "1",
+      "driverName": "RAJENDRA",
+      "vehicleNumber": "8012",
+      "remarks": "700",
+      "createdAt": "2026-10-26T06:31:17.683Z",
+      "updatedAt": "2026-10-29T05:07:08.928Z"
+    },
+    {
+      "id": "rec_1792996277683_2bmyh",
+      "date": "2083-07-09",
+      "itemName": "DORI",
+      "unit": "PIC",
+      "quantity": "50",
+      "driverName": "RAJENDRA",
+      "vehicleNumber": "8012",
+      "remarks": "500",
+      "createdAt": "2026-10-26T06:31:17.683Z",
+      "updatedAt": "2026-11-01T10:18:46.503Z"
+    },
+    {
+      "id": "rec_1793166699592_ksso7",
+      "date": "2083-07-11",
+      "itemName": "RIDDI SIDDI CEMENT PPC 670 X 15",
+      "unit": "BAG",
+      "quantity": "15",
+      "driverName": "PURNEY",
+      "vehicleNumber": "DI",
+      "remarks": "10,050",
+      "createdAt": "2026-10-28T05:51:39.592Z",
+      "updatedAt": "2026-10-28T07:52:18.184Z"
+    },
+    {
+      "id": "rec_1793166699592_e5fwq",
+      "date": "2083-07-11",
+      "itemName": "LOAD",
+      "unit": "pic",
+      "quantity": "15",
+      "driverName": "PURNEY",
+      "vehicleNumber": "DI",
+      "remarks": "150",
+      "createdAt": "2026-10-28T05:51:39.592Z"
+    },
+    {
+      "id": "rec_1793166699592_7n7o3",
+      "date": "2083-07-11",
+      "itemName": "TRANSPORATATION",
+      "unit": "tip",
+      "quantity": "1",
+      "driverName": "PURNEY",
+      "vehicleNumber": "DI",
+      "remarks": "500",
+      "createdAt": "2026-10-28T05:51:39.592Z"
+    }
+  ]
+}

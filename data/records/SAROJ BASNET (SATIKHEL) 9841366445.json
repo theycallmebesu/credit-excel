@@ -1,0 +1,99 @@
+{
+  "customerName": "SAROJ BASNET (SATIKHEL) 9841366445",
+  "createdAt": "2026-10-29T08:19:27.776Z",
+  "updatedAt": "2026-11-01T10:08:06.748Z",
+  "entries": [
+    {
+      "id": "rec_1793262004364_ht76b",
+      "date": "2083-07-12",
+      "itemName": "RIDDI SIDDI CEMENT PPC",
+      "unit": "BAG",
+      "quantity": "20",
+      "driverName": "SHIVEY",
+      "vehicleNumber": "5225",
+      "remarks": "13400",
+      "createdAt": "2026-10-29T08:20:04.364Z",
+      "updatedAt": "2026-11-01T10:06:38.530Z"
+    },
+    {
+      "id": "rec_1793262004364_lyhvq",
+      "date": "2083-07-12",
+      "itemName": "RODA (20 MM)",
+      "unit": "TIP",
+      "quantity": "1",
+      "driverName": "SHIVEY",
+      "vehicleNumber": "9155",
+      "remarks": "13000",
+      "createdAt": "2026-10-29T08:20:04.364Z",
+      "updatedAt": "2026-11-01T10:06:43.101Z"
+    },
+    {
+      "id": "rec_1793262015344_vzcxg",
+      "date": "2083-07-12",
+      "itemName": "BALWA (KHASRO)",
+      "unit": "TIP",
+      "quantity": "1",
+      "driverName": "SHIVEY",
+      "vehicleNumber": "5225",
+      "remarks": "13000",
+      "createdAt": "2026-10-29T08:20:15.344Z",
+      "updatedAt": "2026-11-01T10:06:47.773Z"
+    },
+    {
+      "id": "rec_1793518653711_ynlqc",
+      "date": "2083-07-15",
+      "itemName": "RODA 20 MM",
+      "unit": "HALF..TIP",
+      "quantity": "0.5",
+      "driverName": "SHIVEY",
+      "vehicleNumber": "9155",
+      "remarks": "6500",
+      "createdAt": "2026-11-01T07:37:33.711Z"
+    },
+    {
+      "id": "rec_1793518653711_0hgj5",
+      "date": "2083-07-15",
+      "itemName": "BALWA KHASRO",
+      "unit": "HALF..TIP",
+      "quantity": "0.5",
+      "driverName": "SHIVEY",
+      "vehicleNumber": "9155",
+      "remarks": "6500",
+      "createdAt": "2026-11-01T07:37:33.711Z"
+    },
+    {
+      "id": "rec_1793518653711_r13i8",
+      "date": "2083-07-15",
+      "itemName": "LOAD",
+      "unit": "BAG",
+      "quantity": "6",
+      "driverName": "SHIVEY",
+      "vehicleNumber": "9155",
+      "remarks": "60",
+      "createdAt": "2026-11-01T07:37:33.711Z"
+    },
+    {
+      "id": "rec_1793518653711_rrtjv",
+      "date": "2083-07-15",
+      "itemName": "RIDDI SIDDI CEMENT OPC",
+      "unit": "BAG",
+      "quantity": "6",
+      "driverName": "SHIVEY",
+      "vehicleNumber": "9155",
+      "remarks": "4620",
+      "createdAt": "2026-11-01T07:37:33.711Z",
+      "updatedAt": "2026-11-01T10:08:06.747Z"
+    },
+    {
+      "id": "rec_1793527576933_fhq8z",
+      "date": "2083-07-12",
+      "itemName": "LOAD",
+      "unit": "BAG",
+      "quantity": "20",
+      "driverName": "SHIVEY",
+      "vehicleNumber": "9155",
+      "remarks": "200",
+      "createdAt": "2026-11-01T10:06:16.933Z"
+    }
+  ]
+}

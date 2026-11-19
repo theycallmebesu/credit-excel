@@ -1,0 +1,63 @@
+{
+  "customerName": "KALCHA (TIPPER)",
+  "createdAt": "2026-10-27T02:42:09.942Z",
+  "updatedAt": "2026-10-31T02:52:32.768Z",
+  "entries": [
+    {
+      "id": "rec_1793068929942_k5vha",
+      "date": "2083-07-10",
+      "itemName": "BALWA (TIPPER KHASRO)",
+      "unit": "tip",
+      "quantity": "1",
+      "driverName": "KALCHA",
+      "vehicleNumber": "3468",
+      "remarks": "8 10 TO 36 AM",
+      "createdAt": "2026-10-27T02:42:09.942Z",
+      "updatedAt": "2026-10-28T02:28:00.330Z"
+    },
+    {
+      "id": "rec_1793154505743_vxvur",
+      "date": "2083-07-11",
+      "itemName": "RODA (20 MM)",
+      "unit": "tipper",
+      "quantity": "1",
+      "driverName": "kalcha",
+      "vehicleNumber": "3468",
+      "remarks": "3468",
+      "createdAt": "2026-10-28T02:28:25.743Z"
+    },
+    {
+      "id": "rec_1793329991467_5c4wx",
+      "date": "2083-07-12",
+      "itemName": "RODA (20 MM)",
+      "unit": "TIPPER",
+      "quantity": "1",
+      "driverName": "KALCHA",
+      "vehicleNumber": "3468",
+      "remarks": "",
+      "createdAt": "2026-10-30T03:13:11.467Z"
+    },
+    {
+      "id": "rec_1793330007438_sguzf",
+      "date": "2083-07-13",
+      "itemName": "BALWA (KHARO)",
+      "unit": "TIPPER",
+      "quantity": "1",
+      "driverName": "KALCHA",
+      "vehicleNumber": "3468",
+      "remarks": "",
+      "createdAt": "2026-10-30T03:13:27.438Z"
+    },
+    {
+      "id": "rec_1793415152768_x48ft",
+      "date": "2083-07-14",
+      "itemName": "RODA (20 MM)",
+      "unit": "TIPPER",
+      "quantity": "1",
+      "driverName": "KALCHA",
+      "vehicleNumber": "3468",
+      "remarks": "",
+      "createdAt": "2026-10-31T02:52:32.768Z"
+    }
+  ]
+}

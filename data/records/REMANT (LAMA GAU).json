@@ -1,0 +1,190 @@
+{
+  "customerName": "REMANT (LAMA GAU)",
+  "createdAt": "2026-10-26T02:54:03.290Z",
+  "updatedAt": "2026-11-01T10:11:04.782Z",
+  "entries": [
+    {
+      "id": "rec_1793010412522_iughl",
+      "date": "2083-07-09",
+      "itemName": "BALWA (KHASRO)",
+      "unit": "tip",
+      "quantity": "4",
+      "driverName": "RAJENDRA",
+      "vehicleNumber": "8012",
+      "remarks": "RAJENDRA",
+      "createdAt": "2026-10-26T10:26:52.522Z"
+    },
+    {
+      "id": "rec_1793010619583_t15ye",
+      "date": "2083-07-09",
+      "itemName": "BALWA (KHASRO)",
+      "unit": "tip",
+      "quantity": "6",
+      "driverName": "SAJAN",
+      "vehicleNumber": "5225",
+      "remarks": "SAJAN TAMANG",
+      "createdAt": "2026-10-26T10:30:19.583Z"
+    },
+    {
+      "id": "rec_1793012492599_jv7lo",
+      "date": "2083-07-09",
+      "itemName": "BALWA (KHASRO)",
+      "unit": "tip",
+      "quantity": "3",
+      "driverName": "SUPARI",
+      "vehicleNumber": "9155",
+      "remarks": "SUPARI (SHIVEY KO GADI)",
+      "createdAt": "2026-10-26T11:01:32.599Z"
+    },
+    {
+      "id": "rec_1793069436655_hsebc",
+      "date": "2083-07-10",
+      "itemName": "RIDDI SIDDI CEMENT (OPC)",
+      "unit": "bag",
+      "quantity": "80",
+      "driverName": "SUPARI",
+      "vehicleNumber": "3726",
+      "remarks": "",
+      "createdAt": "2026-10-27T02:50:36.655Z",
+      "updatedAt": "2026-10-27T08:56:33.619Z"
+    },
+    {
+      "id": "rec_1793091290711_vt5s6",
+      "date": "2083-07-10",
+      "itemName": "BENDING WIRE (DHALAN TAR)",
+      "unit": "kg",
+      "quantity": "27.5",
+      "driverName": "worker Driver",
+      "vehicleNumber": "hilux",
+      "remarks": "",
+      "createdAt": "2026-10-27T08:54:50.711Z"
+    },
+    {
+      "id": "rec_1793091290711_5aaxy",
+      "date": "2083-07-10",
+      "itemName": "BENDING WIRE (DHALAN TAR)",
+      "unit": "kg",
+      "quantity": "26.3",
+      "driverName": "worker Driver",
+      "vehicleNumber": "hilux",
+      "remarks": "",
+      "createdAt": "2026-10-27T08:54:50.711Z"
+    },
+    {
+      "id": "rec_1793101441248_7svx3",
+      "date": "2083-07-10",
+      "itemName": "RODA",
+      "unit": "tip",
+      "quantity": "1",
+      "driverName": "rajendra",
+      "vehicleNumber": "8012",
+      "remarks": "rajendra (8012)",
+      "createdAt": "2026-10-27T11:44:01.248Z",
+      "updatedAt": "2026-10-28T02:44:10.180Z"
+    },
+    {
+      "id": "rec_1793101441248_ij24k",
+      "date": "2083-07-10",
+      "itemName": "RODA",
+      "unit": "tip",
+      "quantity": "4",
+      "driverName": "sajan",
+      "vehicleNumber": "5225 9155",
+      "remarks": "sajan (9155 & 5225)",
+      "createdAt": "2026-10-27T11:44:01.248Z",
+      "updatedAt": "2026-10-28T02:44:39.562Z"
+    },
+    {
+      "id": "rec_1793173329807_l0ezw",
+      "date": "2083-07-11",
+      "itemName": "RIDDI SIDDI CEMENT OPC",
+      "unit": "BAG",
+      "quantity": "80",
+      "driverName": "SUPARI",
+      "vehicleNumber": "3726",
+      "remarks": "",
+      "createdAt": "2026-10-28T07:42:09.807Z"
+    },
+    {
+      "id": "rec_1793173329807_04kk8",
+      "date": "2083-07-11",
+      "itemName": "BAS PER PIC",
+      "unit": "PIC",
+      "quantity": "9",
+      "driverName": "SUPARI",
+      "vehicleNumber": "3726",
+      "remarks": "",
+      "createdAt": "2026-10-28T07:42:09.807Z"
+    },
+    {
+      "id": "rec_1793173329807_7yag0",
+      "date": "2083-07-11",
+      "itemName": "DORI",
+      "unit": "PIC",
+      "quantity": "40",
+      "driverName": "SUPARI",
+      "vehicleNumber": "3726",
+      "remarks": "",
+      "createdAt": "2026-10-28T07:42:09.807Z"
+    },
+    {
+      "id": "rec_1793187299587_8ehbi",
+      "date": "2083-07-11",
+      "itemName": "RODA",
+      "unit": "TIP",
+      "quantity": "2",
+      "driverName": "SAJAN",
+      "vehicleNumber": "5225",
+      "remarks": "",
+      "createdAt": "2026-10-28T11:34:59.587Z",
+      "updatedAt": "2026-10-28T11:36:04.281Z"
+    },
+    {
+      "id": "rec_1793187318229_f6frc",
+      "date": "2083-07-11",
+      "itemName": "RODA",
+      "unit": "TIP",
+      "quantity": "1",
+      "driverName": "RAJENDRA",
+      "vehicleNumber": "8012",
+      "remarks": "",
+      "createdAt": "2026-10-28T11:35:18.229Z"
+    },
+    {
+      "id": "rec_1793266711776_h30y9",
+      "date": "2083-07-12",
+      "itemName": "RODA",
+      "unit": "TIP",
+      "quantity": "1",
+      "driverName": "RAJENDRA",
+      "vehicleNumber": "8012",
+      "remarks": "BY JCB",
+      "createdAt": "2026-10-29T09:38:31.776Z",
+      "updatedAt": "2026-10-29T10:46:15.683Z"
+    },
+    {
+      "id": "rec_1793501453805_zxger",
+      "date": "2083-07-15",
+      "itemName": "RIDDI SIDDI CEMENT (OPC)",
+      "unit": "BAG",
+      "quantity": "80",
+      "driverName": "RAJENDRA",
+      "vehicleNumber": "8012",
+      "remarks": "",
+      "createdAt": "2026-11-01T02:50:53.805Z",
+      "updatedAt": "2026-11-01T10:11:04.782Z"
+    },
+    {
+      "id": "rec_1793501453805_xri8b",
+      "date": "2083-07-15",
+      "itemName": "PANJA",
+      "unit": "PIC",
+      "quantity": "12",
+      "driverName": "RAJENDRA",
+      "vehicleNumber": "8012",
+      "remarks": "",
+      "createdAt": "2026-11-01T02:50:53.805Z",
+      "updatedAt": "2026-11-01T03:21:33.955Z"
+    }
+  ]
+}

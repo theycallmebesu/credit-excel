@@ -1,0 +1,67 @@
+{
+  "customerName": "SUNIL DAI (TALKU)",
+  "createdAt": "2026-10-28T03:42:03.024Z",
+  "updatedAt": "2026-10-29T03:57:28.014Z",
+  "entries": [
+    {
+      "id": "rec_1793158923024_e5gd9",
+      "date": "2083-07-11",
+      "itemName": "BALWA (KHASRO)",
+      "unit": "TIP",
+      "quantity": "1",
+      "driverName": "shivey",
+      "vehicleNumber": "9155",
+      "remarks": "14,000 (PAID)",
+      "createdAt": "2026-10-28T03:42:03.024Z",
+      "updatedAt": "2026-10-29T03:57:28.014Z"
+    },
+    {
+      "id": "rec_1793158923024_r1qf4",
+      "date": "2083-07-11",
+      "itemName": "BLACK PLASTIC PER KG",
+      "unit": "KG",
+      "quantity": "3",
+      "driverName": "shivey",
+      "vehicleNumber": "9155",
+      "remarks": "510 (PAID)",
+      "createdAt": "2026-10-28T03:42:03.024Z",
+      "updatedAt": "2026-10-28T06:31:45.231Z"
+    },
+    {
+      "id": "rec_1793158923024_k9u1n",
+      "date": "2083-07-11",
+      "itemName": "DORI",
+      "unit": "PIC",
+      "quantity": "1",
+      "driverName": "shivey",
+      "vehicleNumber": "9155",
+      "remarks": "100 (PAID)",
+      "createdAt": "2026-10-28T03:42:03.024Z",
+      "updatedAt": "2026-10-28T06:31:57.679Z"
+    },
+    {
+      "id": "rec_1793158923024_48rt6",
+      "date": "2083-07-11",
+      "itemName": "DHALAN KILA PER PKT",
+      "unit": "PKT",
+      "quantity": "1",
+      "driverName": "shivey",
+      "vehicleNumber": "9155",
+      "remarks": "300 (PAID)",
+      "createdAt": "2026-10-28T03:42:03.024Z",
+      "updatedAt": "2026-10-28T06:31:51.007Z"
+    },
+    {
+      "id": "rec_1793158923024_wnipy",
+      "date": "2083-07-11",
+      "itemName": "LEVEL PIPE PER MTR",
+      "unit": "MTR",
+      "quantity": "7",
+      "driverName": "shivey",
+      "vehicleNumber": "9155",
+      "remarks": "175 (PAID)",
+      "createdAt": "2026-10-28T03:42:03.024Z",
+      "updatedAt": "2026-10-28T06:32:03.007Z"
+    }
+  ]
+}

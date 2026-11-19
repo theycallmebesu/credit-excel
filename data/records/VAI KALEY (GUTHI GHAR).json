@@ -1,0 +1,78 @@
+{
+  "customerName": "VAI KALEY (GUTHI GHAR)",
+  "createdAt": "2026-10-26T03:07:00.950Z",
+  "updatedAt": "2026-10-28T05:11:16.898Z",
+  "entries": [
+    {
+      "id": "rec_1792984020950_4687q",
+      "date": "2083-07-09",
+      "itemName": "TMT  20 MM",
+      "unit": "bundle",
+      "quantity": "4",
+      "driverName": "SUPARI",
+      "vehicleNumber": "",
+      "remarks": "92.4+92.2+92.4+92.1=369.1KG",
+      "createdAt": "2026-10-26T03:07:00.950Z",
+      "updatedAt": "2026-10-27T06:25:55.222Z"
+    },
+    {
+      "id": "rec_1792984020950_nryun",
+      "date": "2083-07-09",
+      "itemName": "TMT 16 MM",
+      "unit": "bundle",
+      "quantity": "2",
+      "driverName": "SUPARI",
+      "vehicleNumber": "",
+      "remarks": "94.9+95.6=190.5KG",
+      "createdAt": "2026-10-26T03:07:00.950Z",
+      "updatedAt": "2026-10-27T06:26:00.287Z"
+    },
+    {
+      "id": "rec_1792984020950_mkis3",
+      "date": "2083-07-09",
+      "itemName": "OPC SHIVAM CEMENT",
+      "unit": "bag",
+      "quantity": "30",
+      "driverName": "SUPARI",
+      "vehicleNumber": "",
+      "remarks": "",
+      "createdAt": "2026-10-26T03:07:00.950Z",
+      "updatedAt": "2026-10-27T06:25:42.760Z"
+    },
+    {
+      "id": "rec_1792984020950_96j1s",
+      "date": "2083-07-09",
+      "itemName": "RIDDI SIDDI CEMENT PPC",
+      "unit": "bag",
+      "quantity": "20",
+      "driverName": "SUPARI",
+      "vehicleNumber": "",
+      "remarks": "",
+      "createdAt": "2026-10-26T03:07:00.950Z",
+      "updatedAt": "2026-10-27T06:25:51.048Z"
+    },
+    {
+      "id": "rec_1792984020950_si6pu",
+      "date": "2083-07-09",
+      "itemName": "BENDING WIRE (DHALAN TAR)",
+      "unit": "coil",
+      "quantity": "1 (23.800) KG",
+      "driverName": "SUPARI",
+      "vehicleNumber": "",
+      "remarks": "",
+      "createdAt": "2026-10-26T03:07:00.950Z",
+      "updatedAt": "2026-10-27T06:25:38.164Z"
+    },
+    {
+      "id": "rec_1793164276898_8fv5e",
+      "date": "2083-07-11",
+      "itemName": "DHALN KILA 1.5 INCH",
+      "unit": "pkt",
+      "quantity": "1",
+      "driverName": "SELF WORKER",
+      "vehicleNumber": "WALK IN",
+      "remarks": "",
+      "createdAt": "2026-10-28T05:11:16.898Z"
+    }
+  ]
+}

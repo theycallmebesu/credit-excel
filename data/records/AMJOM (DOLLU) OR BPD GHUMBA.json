@@ -1,0 +1,51 @@
+{
+  "customerName": "AMJOM (DOLLU) OR BPD GHUMBA",
+  "createdAt": "2026-10-28T02:31:01.122Z",
+  "updatedAt": "2026-10-28T09:19:19.899Z",
+  "entries": [
+    {
+      "id": "rec_1793154661122_wud4w",
+      "date": "2083-07-11",
+      "itemName": "RIDDI SIDDI CEMENT PPC",
+      "unit": "bag",
+      "quantity": "7",
+      "driverName": "sajan",
+      "vehicleNumber": "5225",
+      "remarks": "",
+      "createdAt": "2026-10-28T02:31:01.122Z"
+    },
+    {
+      "id": "rec_1793154661122_tu8a5",
+      "date": "2083-07-11",
+      "itemName": "ITTA 1 NUMBER PER PIC",
+      "unit": "pic",
+      "quantity": "300",
+      "driverName": "sajan",
+      "vehicleNumber": "5225",
+      "remarks": "",
+      "createdAt": "2026-10-28T02:31:01.122Z"
+    },
+    {
+      "id": "rec_1793154661122_jg86o",
+      "date": "2083-07-11",
+      "itemName": "JALI 2 NUMBER",
+      "unit": "mtr",
+      "quantity": "2",
+      "driverName": "sajan",
+      "vehicleNumber": "5225",
+      "remarks": "",
+      "createdAt": "2026-10-28T02:31:01.122Z"
+    },
+    {
+      "id": "rec_1793154661122_0tc5y",
+      "date": "2083-07-11",
+      "itemName": "BALWA (KHARO)",
+      "unit": "bora",
+      "quantity": "15",
+      "driverName": "sajan",
+      "vehicleNumber": "5225",
+      "remarks": "",
+      "createdAt": "2026-10-28T02:31:01.122Z"
+    }
+  ]
+}
